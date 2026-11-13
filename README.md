@@ -4,12 +4,12 @@
   <p><strong>本地笔记与代码工作台</strong></p>
   <p>写 Markdown、查项目文件，也可以在同一个窗口打开 SSH 终端、用 SFTP 传文件。</p>
   <p>
-    <a href="https://github.com/bujiuzhi/Folio/releases/download/v0.1.0/Folio_0.1.0_aarch64.dmg"><strong>下载 macOS 版</strong></a>
-    · <a href="https://github.com/bujiuzhi/Folio/releases/download/v0.1.0/Folio_0.1.0_x64-setup.exe"><strong>下载 Windows 版</strong></a>
+    <a href="https://github.com/bujiuzhi/Folio/releases/download/v0.1.1/Folio_0.1.1_aarch64.dmg"><strong>下载 macOS 版</strong></a>
+    · <a href="https://github.com/bujiuzhi/Folio/releases/download/v0.1.1/Folio_0.1.1_x64-setup.exe"><strong>下载 Windows 版</strong></a>
     · <a href="https://bujiuzhi.github.io/Folio/#demo">观看 54 秒演示</a>
     · <a href="https://github.com/bujiuzhi/Folio/releases">发行记录</a>
   </p>
-  <p><sub>v0.1.0 预览版 · macOS Apple Silicon / Windows x64</sub></p>
+  <p><sub>v0.1.1 · macOS Apple Silicon / Windows x64</sub></p>
   <a href="https://bujiuzhi.github.io/Folio/#demo">
     <img src="poster.png" width="920" alt="Folio 操作演示封面，点击观看视频">
   </a>
@@ -45,8 +45,10 @@
 2. 打开 DMG，将 **Folio.app** 拖到「应用程序」。
 3. 打开 Folio，选择一个本地文件夹，或先新建草稿。
 
-当前预览包采用临时签名，尚未通过 Apple 公证。macOS 可能阻止首次启动。
+macOS 安装包采用临时签名，尚未通过 Apple 公证。macOS 可能阻止首次启动。
 
-[下载 DMG](https://github.com/bujiuzhi/Folio/releases/download/v0.1.0/Folio_0.1.0_aarch64.dmg) · [查看发行说明与校验文件](https://github.com/bujiuzhi/Folio/releases/tag/v0.1.0)
+[下载 DMG](https://github.com/bujiuzhi/Folio/releases/download/v0.1.1/Folio_0.1.1_aarch64.dmg) · [查看发行说明与校验文件](https://github.com/bujiuzhi/Folio/releases/tag/v0.1.1)
 
-**Windows x64**：下载并运行 [NSIS 安装程序](https://github.com/bujiuzhi/Folio/releases/download/v0.1.0/Folio_0.1.0_x64-setup.exe)。该包未签名，尚未完成 Windows 实机安装和启动验证。发行页提供 `SHA256SUMS-windows.txt`。
+**Windows x64**：下载并运行 [NSIS 安装程序](https://github.com/bujiuzhi/Folio/releases/download/v0.1.1/Folio_0.1.1_x64-setup.exe)。该包带有 Folio 更新签名，尚未做 Windows 代码签名和实机验收。发行页提供 `SHA256SUMS-windows.txt`。
+
+已安装 v0.1.1 或更新版本时，可在「偏好设置 → 外观 → 检查更新」下载并安装新版。v0.1.0 预览版需先手动安装一次。

@@ -45,10 +45,8 @@
 2. 打开 DMG，将 **Folio.app** 拖到「应用程序」。
 3. 打开 Folio，选择一个本地文件夹，或先新建草稿。
 
-macOS 安装包采用临时签名，尚未通过 Apple 公证。macOS 可能阻止首次启动。
-
 [下载 DMG](https://github.com/bujiuzhi/Folio/releases/download/v0.1.1/Folio_0.1.1_aarch64.dmg) · [查看发行说明与校验文件](https://github.com/bujiuzhi/Folio/releases/tag/v0.1.1)
 
-**Windows x64**：下载并运行 [NSIS 安装程序](https://github.com/bujiuzhi/Folio/releases/download/v0.1.1/Folio_0.1.1_x64-setup.exe)。该包带有 Folio 更新签名，尚未做 Windows 代码签名和实机验收。发行页提供 `SHA256SUMS-windows.txt`。
+**Windows x64**：下载并运行 [NSIS 安装程序](https://github.com/bujiuzhi/Folio/releases/download/v0.1.1/Folio_0.1.1_x64-setup.exe)。发行页提供 `SHA256SUMS-windows.txt`。
 
 已安装 v0.1.1 或更新版本时，可在「偏好设置 → 外观 → 检查更新」下载并安装新版。v0.1.0 预览版需先手动安装一次。

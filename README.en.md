@@ -14,6 +14,13 @@ Folio is a desktop editor for local notes and code, with an integrated terminal,
 - Search file names and contents in a project folder, review changes, and preview Word, Excel, and images. PDF preview is available on macOS.
 - Connect a compatible model API to chat beside the editor and review suggested changes before applying them.
 
+## What's new in v0.1.4
+
+- The updater shows download progress and lets you cancel while downloading.
+- Fixed Windows paths when opening a terminal from the file tree.
+- A slashed eye indicates that hidden files are hidden.
+- AI replies now render Markdown. With workspace access enabled, reads proceed without repeated prompts. Creating or editing files still requires confirmation.
+
 ## Download v0.1.4
 
 | Platform | Installer |

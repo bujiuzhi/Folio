@@ -6,8 +6,9 @@
   <p><strong>本地笔记与代码工作台</strong></p>
   <p>写 Markdown 时即时排版，贴进草稿的代码可以格式化。项目文件、SSH 终端和多个 SFTP 标签都在同一个窗口。</p>
   <p>
-    <a href="https://github.com/bujiuzhi/Folio/releases/download/v0.1.4/Folio_0.1.4_aarch64.dmg"><strong>下载 macOS 版</strong></a>
+    <a href="https://github.com/bujiuzhi/Folio/releases/download/v0.1.4/Folio_0.1.4_aarch64.dmg"><strong>下载 macOS Apple 芯片版</strong></a>
     · <a href="https://github.com/bujiuzhi/Folio/releases/download/v0.1.4/Folio_0.1.4_x64-setup.exe"><strong>下载 Windows 版</strong></a>
+    · <a href="https://bujiuzhi.github.io/Folio/">官网</a>
     · <a href="https://bujiuzhi.github.io/Folio/folio.mp4">观看 54 秒演示</a>
     · <a href="https://github.com/bujiuzhi/Folio/releases">发行记录</a>
   </p>
@@ -26,7 +27,7 @@
     <th width="33%">连接服务器</th>
   </tr>
   <tr>
-    <td><img src="markdown-poster.jpg" alt="Folio 的 Markdown 源码视图"></td>
+    <td><img src="markdown-poster.jpg" alt="Folio 中的 Markdown 排版视图"></td>
     <td><img src="drawing-poster.jpg" alt="嵌入 Markdown 笔记的绘图预览"></td>
     <td><img src="remote-poster.jpg" alt="SFTP 的本机和远程文件面板"></td>
   </tr>
@@ -37,9 +38,16 @@
   </tr>
 </table>
 
-打开项目文件夹后，可以按文件名或正文搜索，给代码和配置做格式化，也可以在标签页查看 Word、Excel、图片和 PDF。文件被外部修改时，可以先看差异再决定怎么保存。
+打开项目文件夹后，可以按文件名或正文搜索，给代码和配置做格式化，也可以在标签页查看 Word、Excel 和图片，macOS 也能预览 PDF。文件被外部修改时，可以先看差异再决定怎么保存。
 
 [查看功能截图](https://bujiuzhi.github.io/Folio/#workbench)
+
+## v0.1.4 更新
+
+- 更新窗口显示下载进度，下载期间可以取消。
+- 修复 Windows 从文件树打开终端时的路径问题。
+- 文件树用带斜杠的眼睛标记隐藏文件未显示的状态。
+- AI 回复支持 Markdown。开启工作区后，读取文件时省去逐次确认，创建或修改文件仍需确认。
 
 ## 下载与安装
 

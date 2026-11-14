@@ -3,115 +3,97 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Folio · 简页，本地笔记与代码工作台。">
-<title>Folio · 简页 — 本地笔记与代码工作台</title>
+<meta name="description" content="Folio 简页，在同一个窗口写笔记、整理代码、连接服务器。">
+<title>Folio · 简页</title>
 <link rel="icon" href="folio.png">
-<style>
-:root{color-scheme:light;--paper:#faf9f6;--ink:#142232;--muted:#45596e;--line:#14223228;--blue:#235d95;font-family:Inter,"PingFang SC",system-ui,sans-serif;color:var(--ink);background:var(--paper)}
-*{box-sizing:border-box}
-body{margin:0}
-a{color:inherit;text-underline-offset:4px}
-button{font:inherit}
-:focus-visible{outline:3px solid #417fc2;outline-offset:4px}
-nav,main{width:min(1180px,calc(100% - 48px));margin:auto}
-nav{min-height:76px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:12px}
-.brand{display:inline-flex;align-items:center;gap:8px;font-size:18px;font-weight:700;text-decoration:none;white-space:nowrap}
-.brand img{width:33px;height:33px}
-nav div,.actions{display:flex;align-items:center;flex-wrap:wrap;gap:clamp(13px,3vw,28px)}
-nav div a{font-size:14px;text-decoration:none}
-nav div a:hover{text-decoration:underline}
-.hero{display:grid;grid-template-columns:.8fr 1.2fr;align-items:center;padding:76px 0;gap:clamp(24px,5vw,64px)}
-h1{font-size:clamp(43px,6vw,84px);line-height:1.12;letter-spacing:-.045em;margin:0 0 24px}
-h2{font-size:clamp(32px,4.3vw,54px);line-height:1.14;letter-spacing:-.05em;margin:0 0 22px}
-h3{margin:0;font-size:20px}
-p{color:var(--muted);line-height:1.75}
-.hero p{font-size:18px;margin:0 0 28px}
-.button{background:var(--ink);color:#fff;text-decoration:none;border-radius:9px;padding:13px 20px;display:inline-block;font-weight:650}
-.button:hover{background:#274563}
-.stage{background:#e8edf2;border:1px solid var(--line);border-radius:16px;padding:clamp(10px,2vw,24px)}
-.stage img{display:block;width:100%;border-radius:8px;box-shadow:0 8px 24px #14223226}
-section{scroll-margin-top:25px}
-.demo{background:#eef1f4;padding:clamp(16px,3vw,36px);border-radius:16px}
-.demo header{display:flex;align-items:baseline;justify-content:space-between;gap:8px;flex-wrap:wrap;margin-bottom:18px}
-.demo header h2{margin:0}
-.demo header span{color:var(--muted)}
-video{width:100%;display:block;border-radius:12px;background:var(--paper);aspect-ratio:16/9}
-.chapters{padding:10px 0 0}
-.chapters a{display:inline-block;color:var(--blue);margin:7px 15px 0 0;font-size:14px}
-.workflows,.capabilities{padding-top:88px}
-.tabs{display:flex;flex-wrap:wrap;gap:6px 14px;border-bottom:1px solid var(--line);margin:0 0 22px}
-.tabs button{background:none;border:0;border-bottom:3px solid transparent;padding:13px 6px;color:var(--muted);cursor:pointer}
-.tabs button[aria-selected=true]{border-color:var(--blue);color:var(--ink);font-weight:700}
-.panel{display:grid;grid-template-columns:1.55fr 1fr;gap:clamp(20px,4vw,48px);align-items:center}
-.screenshot{line-height:0}
-.screenshot video{width:100%;display:block;aspect-ratio:23/14;border:1px solid var(--line);box-shadow:0 12px 30px #14223218}
-.steps{display:grid;gap:6px;list-style:none;padding:0}
-.steps button{width:100%;text-align:left;border:1px solid transparent;border-radius:9px;background:transparent;padding:8px 10px;color:var(--ink);cursor:pointer}
-.steps button:hover,.steps button:focus-visible{border-color:#a6c4df;background:#dfebf4}
-.steps button span{display:block;font-size:14px;line-height:1.5;color:var(--muted);margin-top:3px}
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:25px}
-.grid article{border-top:1px solid var(--line);padding:16px 0 5px}
-#download{margin:60px 0;padding:26px 0 0;border-top:1px solid var(--line)}
-#download h2{font-size:clamp(26px,3vw,36px);margin-bottom:8px}
-#download p{margin:0 0 16px}
-@media(max-width:780px){.hero,.panel{grid-template-columns:1fr}.hero{min-height:auto;padding:58px 0 40px}.workflows,.capabilities{padding-top:52px}.grid{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:480px){nav,main{width:calc(100% - 30px)}.grid{grid-template-columns:1fr}}
-</style>
+<link rel="stylesheet" href="showcase.css">
 </head>
-<body id="top">
-<nav aria-label="主导航">
-  <a class="brand" href="#top"><img src="folio.png" alt="">Folio · 简页</a>
-  <div><a href="#demo">演示</a><a href="#features">功能</a><a href="#download">下载</a></div>
-</nav>
-<main>
-  <section class="hero">
-    <div>
-      <h1>写笔记、改代码，<br>顺手连服务器</h1>
-      <p>笔记、代码和终端放在同一个窗口。临时贴一段配置就能格式化，写 Markdown 时就能看见排版，传文件时可以同时打开多个 SFTP 标签。</p>
-      <div class="actions"><a class="button" href="#download">下载 Folio</a><a href="#demo">看演示</a></div>
+<body>
+<header class="masthead">
+  <a class="brand" href="#top"><img src="folio.png" alt="" width="30" height="30">Folio <span>简页</span></a>
+  <nav aria-label="主导航"><a href="#workbench">工作台</a><a class="nav-download" href="#download">下载 ↗</a></nav>
+</header>
+<main id="top">
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-orbit" aria-hidden="true"></div>
+    <div class="hero-copy">
+      <h1 id="hero-title">写笔记，改代码<br><em>也能连服务器</em></h1>
+      <p>打开项目文件夹就能编辑本地文件。需要跑命令或传文件时，从「远程」打开 SSH 或 SFTP。</p>
+      <div class="actions"><a class="button" href="#download">下载 Folio <span aria-hidden="true">↓</span></a><a class="hero-link" href="#workbench">查看功能 <span aria-hidden="true">↓</span></a></div>
     </div>
-    <div class="stage"><img src="markdown-poster.jpg" alt="Folio 中打开的发布清单 Markdown 源码"></div>
+    <div class="hero-screen"><img src="markdown-poster.jpg" width="1150" height="700" fetchpriority="high" alt="Folio 编辑器中的 Markdown 发布清单"></div>
   </section>
-  <section class="demo" id="demo" aria-labelledby="demo-title">
-    <header><h2 id="demo-title">操作演示</h2><span>54 秒</span></header>
-    <video id="film" controls playsinline preload="metadata" poster="poster.png" aria-label="Folio 产品演示">
-      <source src="folio.mp4" type="video/mp4">
-      <a href="folio.mp4">下载演示视频</a>
-    </video>
-    <div class="chapters" id="chapter-links" aria-label="视频章节"></div>
+
+  <section class="workbench" id="workbench" aria-labelledby="workbench-title">
+    <header class="section-head"><h2 id="workbench-title">核心功能</h2></header>
+    <div class="story">
+      <figure class="story-deck" aria-label="功能截图">
+        <div class="deck-stack">
+          <div class="deck-card" data-depth="0" aria-hidden="false"><img src="draft.jpg" alt="草稿识别粘贴内容后的排版" loading="lazy" width="1150" height="700"></div>
+          <div class="deck-card" data-depth="1" aria-hidden="true"><img src="markdown-poster.jpg" alt="Markdown 发布清单的排版视图" loading="lazy" width="1150" height="700"></div>
+          <div class="deck-card" data-depth="2" aria-hidden="true"><img src="drawing-poster.jpg" alt="笔记中的 Excalidraw 绘图" loading="lazy" width="1150" height="700"></div>
+          <div class="deck-card" data-depth="3" aria-hidden="true"><img src="hosts.png" alt="按开发和测试环境分组的主机列表" width="800" height="500"></div>
+          <div class="deck-card" data-depth="4" aria-hidden="true"><img src="ssh-terminal.png" alt="通过 SSH 连到预发布环境后运行命令" width="580" height="354"></div>
+          <div class="deck-card" data-depth="5" aria-hidden="true"><img src="remote-poster.jpg" alt="SFTP 本机与远程文件面板" loading="lazy" width="1150" height="700"></div>
+        </div>
+      </figure>
+      <div class="story-steps">
+        <article class="story-step" id="paste"><h3>粘贴后识别格式</h3><p>点「新建草稿」，粘贴 Markdown、JSON 或代码。识别为 Markdown 就直接排版，识别为代码就显示语法高亮。要整理缩进，点「格式化」。</p></article>
+        <article class="story-step" id="markdown"><h3>Markdown 边写边看</h3><p>标题、表格和待办随编辑更新。同一份笔记也可以切到源码或思维导图。</p></article>
+        <article class="story-step" id="drawing"><h3>在笔记里画图</h3><p>点工具栏的绘图按钮打开 Excalidraw。在 Markdown 里也能插入画布，保存后，图会显示在正文里。</p></article>
+        <article class="story-step" id="hosts"><h3>主机分组</h3><p>打开「远程」查看已保存的连接。按名称、地址或分组找主机。找到后可以从同一行打开 SSH 或 SFTP。</p></article>
+        <article class="story-step" id="terminal"><h3>SSH 终端</h3><p>点击主机旁的「连接」，在独立标签中打开 SSH 终端。常用命令可以存为脚本，下次直接调用。</p></article>
+        <article class="story-step" id="remote"><h3>SFTP 文件传输</h3><p>给不同服务器分别打开 SFTP 标签，在本机和远端之间上传、下载文件。</p></article>
+      </div>
+    </div>
   </section>
-  <section class="workflows" id="workflows" aria-labelledby="workflow-title">
-    <h2 id="workflow-title">分段观看</h2>
-    <div class="tabs" id="workflow-tabs" role="tablist" aria-label="工作流"></div>
-    <div class="panel" id="workflow-panel" role="tabpanel" tabindex="0"></div>
-    <noscript><p>启用 JavaScript 可浏览交互导览。上方视频包含全部操作。</p></noscript>
-  </section>
-  <section class="capabilities" id="features" aria-labelledby="feature-title">
-    <h2 id="feature-title">功能</h2>
+  <div class="detail-band">
+  <section class="capabilities performance" id="performance" aria-labelledby="performance-title">
+    <h2 id="performance-title">安装包与资源占用</h2>
     <div class="grid">
-      <article><h3>少开几个常驻应用</h3><p>为记笔记、改配置、跑命令各开一个应用，后台会多占一份资源。Folio 把这些操作放在同一个窗口，临时处理文本时直接新建草稿。</p></article>
-      <article><h3>边写 Markdown，边看排版</h3><p>标题、列表、表格和代码块随编辑更新，核对样式时可以留在当前文档。</p></article>
-      <article><h3>用文件夹整理资料</h3><p>直接打开已有项目或资料目录，通过文件树、文件名和正文搜索找内容。笔记和代码照常保存在原来的文件夹。</p></article>
-      <article><h3>多个 SFTP 标签一起开</h3><p>给不同服务器分别打开 SFTP 标签，来回查看目录和传输文件。需要执行命令时，再从主机卡片打开 SSH 终端。</p></article>
-      <article><h3>读文档、改表格</h3><p>在标签页查看图片、Word 和 Excel，macOS 可直接预览 PDF。Word 普通正文和 Excel 已有普通单元格支持原位编辑。</p></article>
-      <article><h3>编辑代码和配置</h3><p>把代码贴进草稿，识别后自动高亮。点「格式化」就能整理 JSON、YAML、Python、SQL 等源码的缩进和排版。</p></article>
-      <article><h3>查看文件历史</h3><p>文件被外部修改时，先查看磁盘版本与当前内容的差异。也可以载入本地历史正文后再决定是否保存。</p></article>
-      <article><h3>思维导图和绘图</h3><p>打开 XMind 编辑主题标题。从 Markdown 导出 ZIP 时，可以带上引用的本地图片与绘图原稿。</p></article>
-      <article><h3>本地终端与 Git</h3><p>从项目根目录或子目录启动 Shell。在已有 Git 工作区查看分支状态、暂存和提交，也可以手动拉取与推送。</p></article>
-      <article><h3>AI 对话与文件共享</h3><p>接入兼容 API 后，可审阅 AI 建议的文本差异再应用。通过 MCP 共享时，所选文件夹默认只读。</p></article>
+      <article><strong>约 26 至 29 MB</strong><h3>安装包</h3><p>v0.1.3 的 macOS、Windows 和 Linux DEB 下载大小。便携 AppImage 约 108 MB。</p></article>
+      <article><h3>按需加载排版组件</h3><p>用系统 WebView 显示界面。公式和图表按需加载，关闭最后一个 Markdown 文档时释放排版上下文。</p></article>
+      <article><h3>后台索引文件</h3><p>打开文件夹就能开始编辑。Folio 在后台建立文件索引。</p></article>
     </div>
   </section>
-  <section class="capabilities" id="download" aria-labelledby="download-title">
-    <h2 id="download-title">下载 Folio</h2>
-    <p>v0.1.3</p>
+  <section class="capabilities additional" id="features" aria-labelledby="feature-title">
+    <h2 id="feature-title">更多功能</h2>
     <div class="grid">
-      <article><h3>macOS</h3><p><a href="https://github.com/bujiuzhi/Folio/releases/download/v0.1.3/Folio_0.1.3_aarch64.dmg">Apple 芯片</a> · <a href="https://github.com/bujiuzhi/Folio/releases/download/v0.1.3/Folio_0.1.3_x64.dmg">Intel</a></p></article>
-      <article><h3>Windows</h3><p><a href="https://github.com/bujiuzhi/Folio/releases/download/v0.1.3/Folio_0.1.3_x64-setup.exe">x64 安装包</a></p></article>
-      <article><h3>Linux x64</h3><p><a href="https://github.com/bujiuzhi/Folio/releases/download/v0.1.3/Folio_0.1.3_amd64.AppImage">AppImage</a> · <a href="https://github.com/bujiuzhi/Folio/releases/download/v0.1.3/Folio_0.1.3_amd64.deb">Debian / Ubuntu</a></p></article>
+      <article><h3>AI 对话与文本修改</h3><p>配置兼容的模型 API 后，可以在编辑器旁提问。AI 建议改文件时，可以先看差异，再决定是否应用。</p></article>
+      <article><h3>SSH 隧道与端口转发</h3><p>保存本地、远程或动态 SOCKS 转发规则，在远程工作台查看状态、启动和停止。</p></article>
+      <article><h3>Office 和常用文件</h3><p>在标签页预览 Word、Excel 和图片，macOS 也能预览 PDF。可编辑 Word 普通正文和 Excel 已有的普通单元格。</p></article>
+      <article><h3>Markdown 与 XMind 思维导图</h3><p>把 Markdown 的标题和列表切成思维导图，也可以打开 XMind 文件并修改主题标题。</p></article>
+      <article><h3>文件夹与历史</h3><p>按文件名或正文搜索。文件被外部修改时先看差异，也可以打开历史版本。</p></article>
+      <article><h3>本地终端与 Git</h3><p>从项目目录启动 Shell，查看 Git 分支和改动，按需暂存、提交、拉取或推送。</p></article>
     </div>
-    <a href="https://github.com/bujiuzhi/Folio/releases/tag/v0.1.3">发行说明</a>
+  </section>
+  </div>
+  <section class="download-section" id="download" aria-labelledby="download-title">
+    <header class="download-heading">
+      <div><p class="download-version">v0.1.3</p><h2 id="download-title">下载 Folio</h2></div>
+      <a class="release-link" href="https://github.com/bujiuzhi/Folio/releases/tag/v0.1.3">发行说明与校验文件 ↗</a>
+    </header>
+    <div class="download-platforms">
+      <article class="download-platform"><h3>macOS</h3>
+        <div class="download-options">
+        <a class="download-build" href="https://github.com/bujiuzhi/Folio/releases/download/v0.1.3/Folio_0.1.3_aarch64.dmg"><span><strong>Apple 芯片</strong><small>DMG · 28.5 MB</small></span><span class="download-arrow">↓</span></a>
+        <a class="download-build" href="https://github.com/bujiuzhi/Folio/releases/download/v0.1.3/Folio_0.1.3_x64.dmg"><span><strong>Intel</strong><small>DMG · 29.2 MB</small></span><span class="download-arrow">↓</span></a>
+        </div>
+      </article>
+      <article class="download-platform"><h3>Windows</h3>
+        <div class="download-options">
+        <a class="download-build" href="https://github.com/bujiuzhi/Folio/releases/download/v0.1.3/Folio_0.1.3_x64-setup.exe"><span><strong>Windows x64</strong><small>EXE · 26.8 MB</small></span><span class="download-arrow">↓</span></a>
+        </div>
+      </article>
+      <article class="download-platform"><h3>Linux</h3>
+        <div class="download-options">
+        <a class="download-build" href="https://github.com/bujiuzhi/Folio/releases/download/v0.1.3/Folio_0.1.3_amd64.deb"><span><strong>DEB x64</strong><small>28.3 MB</small></span><span class="download-arrow">↓</span></a>
+        <a class="download-build" href="https://github.com/bujiuzhi/Folio/releases/download/v0.1.3/Folio_0.1.3_amd64.AppImage"><span><strong>AppImage x64</strong><small>108.2 MB</small></span><span class="download-arrow">↓</span></a>
+        </div>
+      </article>
+    </div>
   </section>
 </main>
-<script src="site.js" defer></script>
+<script type="module" src="showcase.js"></script>
 </body>
 </html>

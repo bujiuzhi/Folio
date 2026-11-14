@@ -52,3 +52,7 @@
 @media(prefers-reduced-motion:reduce){.download-build{transition:none}}
 
 @media(min-width:781px) and (max-width:1050px){.download-build{padding-inline:8px;gap:4px}.download-build strong{font-size:12px}.download-build small{font-size:11px}}
+
+.language-switch{padding-inline-start:12px;border-inline-start:1px solid var(--line);color:var(--muted)}
+html[lang=en] .hero h1{font-size:clamp(46px,5.4vw,79px);letter-spacing:-.055em}
+@media(max-width:460px){.masthead nav{gap:9px;font-size:12px}.nav-download{padding-inline:8px}.language-switch{padding-inline-start:8px}}

@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Folio is a desktop editor for local files, Markdown, SSH, and SFTP.">
+<title>Folio</title>
+<link rel="alternate" hreflang="zh-CN" href="index.html">
+<link rel="icon" href="folio.png">
+<link rel="stylesheet" href="showcase.css">
+</head>
+<body>
+<header class="masthead">
+  <a class="brand" href="#top"><img src="folio.png" alt="" width="30" height="30">Folio</a>
+  <nav aria-label="Main navigation"><a href="#workbench">Workspace</a><a class="nav-download" href="#download">Download ↗</a><a class="language-switch" href="index.html" lang="zh-CN" hreflang="zh-CN">中文</a></nav>
+</header>
+<main id="top">
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-orbit" aria-hidden="true"></div>
+    <div class="hero-copy">
+      <h1 id="hero-title">Notes and code<br><em>SSH when you need it</em></h1>
+      <p>Open a project folder and edit your files. Use the Remote tab to run commands over SSH or transfer files with SFTP.</p>
+      <div class="actions"><a class="button" href="#download">Download Folio <span aria-hidden="true">↓</span></a><a class="hero-link" href="#workbench">Explore features <span aria-hidden="true">↓</span></a></div>
+    </div>
+    <div class="hero-screen"><img src="markdown-poster.jpg" width="1150" height="700" fetchpriority="high" alt="A Markdown release checklist in Folio"></div>
+  </section>
+
+  <section class="workbench" id="workbench" aria-labelledby="workbench-title">
+    <header class="section-head"><h2 id="workbench-title">The workspace</h2></header>
+    <div class="story">
+      <figure class="story-deck" aria-label="Feature screenshots">
+        <div class="deck-stack">
+          <div class="deck-card" data-depth="0" aria-hidden="false"><img src="draft.jpg" alt="Formatted Markdown after pasting into a draft" loading="lazy" width="1150" height="700"></div>
+          <div class="deck-card" data-depth="1" aria-hidden="true"><img src="markdown-poster.jpg" alt="A rendered Markdown release checklist" loading="lazy" width="1150" height="700"></div>
+          <div class="deck-card" data-depth="2" aria-hidden="true"><img src="drawing-poster.jpg" alt="An Excalidraw drawing inside a note" loading="lazy" width="1150" height="700"></div>
+          <div class="deck-card" data-depth="3" aria-hidden="true"><img src="hosts.png" alt="Hosts grouped by development and test environment" width="800" height="500"></div>
+          <div class="deck-card" data-depth="4" aria-hidden="true"><img src="ssh-terminal.png" alt="Running a command on a staging host over SSH" width="580" height="354"></div>
+          <div class="deck-card" data-depth="5" aria-hidden="true"><img src="remote-poster.jpg" alt="Local and remote files in the SFTP browser" loading="lazy" width="1150" height="700"></div>
+        </div>
+      </figure>
+      <div class="story-steps">
+        <article class="story-step" id="paste"><h3>Paste into a draft</h3><p>Create a draft and paste Markdown, JSON, or code. Folio renders Markdown and highlights recognized code. Use Format to fix indentation.</p></article>
+        <article class="story-step" id="markdown"><h3>Live Markdown</h3><p>Headings, tables, and checklists update as you type. Switch to source or mind map view from the same note.</p></article>
+        <article class="story-step" id="drawing"><h3>Draw inside a note</h3><p>Open Excalidraw from the toolbar, or insert a canvas in Markdown. Save the drawing to see it in the note.</p></article>
+        <article class="story-step" id="hosts"><h3>Organize hosts</h3><p>Open Remote to find saved hosts by name, address, or group. Start SSH or SFTP from the host row.</p></article>
+        <article class="story-step" id="terminal"><h3>SSH terminal</h3><p>Click Connect to open an SSH terminal in its own tab. Save commands you use often as scripts.</p></article>
+        <article class="story-step" id="remote"><h3>SFTP transfers</h3><p>Open separate SFTP tabs for different servers and transfer files between your computer and each host.</p></article>
+      </div>
+    </div>
+  </section>
+  <div class="detail-band">
+  <section class="capabilities performance" id="performance" aria-labelledby="performance-title">
+    <h2 id="performance-title">Downloads and resource use</h2>
+    <div class="grid">
+      <article><strong>About 26 to 30 MB</strong><h3>Installers</h3><p>Download sizes for the macOS, Windows, and Linux DEB installers. The portable AppImage is about 108 MB.</p></article>
+      <article><h3>Rendering on demand</h3><p>Folio uses the system WebView. Formula and diagram rendering load on demand and are released when you close the last Markdown document.</p></article>
+      <article><h3>Background indexing</h3><p>Start editing as soon as you open a folder. Folio indexes its files in the background.</p></article>
+    </div>
+  </section>
+  <section class="capabilities additional" id="features" aria-labelledby="feature-title">
+    <h2 id="feature-title">More features</h2>
+    <div class="grid">
+      <article><h3>AI chat and edits</h3><p>Connect a compatible model API to ask questions beside the editor. Review suggested file changes before applying them.</p></article>
+      <article><h3>SSH tunnels and forwarding</h3><p>Save local, remote, or dynamic SOCKS forwarding rules. Start, stop, and monitor them in Remote.</p></article>
+      <article><h3>Office and other files</h3><p>Preview Word, Excel, and images in tabs, plus PDF on macOS. Edit plain Word paragraphs and existing ordinary Excel cells.</p></article>
+      <article><h3>Markdown and XMind</h3><p>View Markdown headings and lists as a mind map, or open an XMind file and edit topic titles.</p></article>
+      <article><h3>Folders and history</h3><p>Search file names or contents. Review external changes or open earlier versions.</p></article>
+      <article><h3>Local terminal and Git</h3><p>Open a shell in the project folder. View Git branches and changes, then stage, commit, pull, or push.</p></article>
+    </div>
+  </section>
+  </div>
+  <section class="download-section" id="download" aria-labelledby="download-title">
+    <header class="download-heading">
+      <div><p class="download-version">v0.1.4</p><h2 id="download-title">Download Folio</h2></div>
+      <a class="release-link" href="https://github.com/bujiuzhi/Folio/releases/tag/v0.1.4">Release notes and checksums ↗</a>
+    </header>
+    <div class="download-platforms">
+      <article class="download-platform"><h3>macOS</h3>
+        <div class="download-options">
+        <a class="download-build" href="https://github.com/bujiuzhi/Folio/releases/download/v0.1.4/Folio_0.1.4_aarch64.dmg"><span><strong>Apple silicon</strong><small>DMG · 28.5 MB</small></span><span class="download-arrow">↓</span></a>
+        <a class="download-build" href="https://github.com/bujiuzhi/Folio/releases/download/v0.1.4/Folio_0.1.4_x64.dmg"><span><strong>Intel</strong><small>DMG · 29.2 MB</small></span><span class="download-arrow">↓</span></a>
+        </div>
+      </article>
+      <article class="download-platform"><h3>Windows</h3>
+        <div class="download-options">
+        <a class="download-build" href="https://github.com/bujiuzhi/Folio/releases/download/v0.1.4/Folio_0.1.4_x64-setup.exe"><span><strong>Windows x64</strong><small>EXE · 26.8 MB</small></span><span class="download-arrow">↓</span></a>
+        </div>
+      </article>
+      <article class="download-platform"><h3>Linux</h3>
+        <div class="download-options">
+        <a class="download-build" href="https://github.com/bujiuzhi/Folio/releases/download/v0.1.4/Folio_0.1.4_amd64.deb"><span><strong>DEB x64</strong><small>28.3 MB</small></span><span class="download-arrow">↓</span></a>
+        <a class="download-build" href="https://github.com/bujiuzhi/Folio/releases/download/v0.1.4/Folio_0.1.4_amd64.AppImage"><span><strong>AppImage x64</strong><small>108.3 MB</small></span><span class="download-arrow">↓</span></a>
+        </div>
+      </article>
+    </div>
+  </section>
+</main>
+<script type="module" src="showcase.js"></script>
+</body>
+</html>

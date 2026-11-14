@@ -2,7 +2,7 @@
   <img src="folio.png" width="88" height="88" alt="">
   <h1>Folio · 简页</h1>
   <p><strong>本地笔记与代码工作台</strong></p>
-  <p>写 Markdown、查项目文件，也可以在同一个窗口打开 SSH 终端、用 SFTP 传文件。</p>
+  <p>写 Markdown 时即时排版，贴进草稿的代码可以格式化。项目文件、SSH 终端和多个 SFTP 标签都在同一个窗口。</p>
   <p>
     <a href="https://github.com/bujiuzhi/Folio/releases/download/v0.1.2/Folio_0.1.2_aarch64.dmg"><strong>下载 macOS 版</strong></a>
     · <a href="https://github.com/bujiuzhi/Folio/releases/download/v0.1.2/Folio_0.1.2_x64-setup.exe"><strong>下载 Windows 版</strong></a>
@@ -31,7 +31,7 @@
   <tr>
     <td>在排版、源码和思维导图之间切换，直接编辑表格和待办。</td>
     <td>从笔记插入 Excalidraw 画布，画完保存，回到正文查看预览。</td>
-    <td>核对主机指纹后打开 SSH 终端，用 SFTP 在本机和远端之间传文件。</td>
+    <td>核对主机指纹后打开 SSH 终端。给不同服务器分别开 SFTP 标签，在本机和远端之间传文件。</td>
   </tr>
 </table>
 

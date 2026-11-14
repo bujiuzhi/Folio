@@ -4,12 +4,12 @@
   <p><strong>本地笔记与代码工作台</strong></p>
   <p>写 Markdown 时即时排版，贴进草稿的代码可以格式化。项目文件、SSH 终端和多个 SFTP 标签都在同一个窗口。</p>
   <p>
-    <a href="https://github.com/bujiuzhi/Folio/releases/download/v0.1.2/Folio_0.1.2_aarch64.dmg"><strong>下载 macOS 版</strong></a>
-    · <a href="https://github.com/bujiuzhi/Folio/releases/download/v0.1.2/Folio_0.1.2_x64-setup.exe"><strong>下载 Windows 版</strong></a>
+    <a href="https://github.com/bujiuzhi/Folio/releases/download/v0.1.3/Folio_0.1.3_aarch64.dmg"><strong>下载 macOS 版</strong></a>
+    · <a href="https://github.com/bujiuzhi/Folio/releases/download/v0.1.3/Folio_0.1.3_x64-setup.exe"><strong>下载 Windows 版</strong></a>
     · <a href="https://bujiuzhi.github.io/Folio/#demo">观看 54 秒演示</a>
     · <a href="https://github.com/bujiuzhi/Folio/releases">发行记录</a>
   </p>
-  <p><sub>v0.1.2 · macOS / Windows / Linux</sub></p>
+  <p><sub>v0.1.3 · macOS / Windows / Linux</sub></p>
   <a href="https://bujiuzhi.github.io/Folio/#demo">
     <img src="poster.png" width="920" alt="Folio 操作演示封面，点击观看视频">
   </a>
@@ -41,14 +41,14 @@
 
 ## 下载与安装
 
-1. 按芯片下载 DMG。选 [Apple 芯片](https://github.com/bujiuzhi/Folio/releases/download/v0.1.2/Folio_0.1.2_aarch64.dmg) 或 [Intel](https://github.com/bujiuzhi/Folio/releases/download/v0.1.2/Folio_0.1.2_x64.dmg)。
+1. 按芯片下载 DMG。选 [Apple 芯片](https://github.com/bujiuzhi/Folio/releases/download/v0.1.3/Folio_0.1.3_aarch64.dmg) 或 [Intel](https://github.com/bujiuzhi/Folio/releases/download/v0.1.3/Folio_0.1.3_x64.dmg)。
 2. 打开 DMG，将 **Folio.app** 拖到「应用程序」。
 3. 打开 Folio，选择一个本地文件夹，或先新建草稿。
 
-[下载 DMG](https://github.com/bujiuzhi/Folio/releases/download/v0.1.2/Folio_0.1.2_aarch64.dmg) · [查看发行说明与校验文件](https://github.com/bujiuzhi/Folio/releases/tag/v0.1.2)
+[下载 DMG](https://github.com/bujiuzhi/Folio/releases/download/v0.1.3/Folio_0.1.3_aarch64.dmg) · [查看发行说明与校验文件](https://github.com/bujiuzhi/Folio/releases/tag/v0.1.3)
 
-**Windows x64**：下载并运行 [NSIS 安装程序](https://github.com/bujiuzhi/Folio/releases/download/v0.1.2/Folio_0.1.2_x64-setup.exe)。
+**Windows x64**：下载并运行 [NSIS 安装程序](https://github.com/bujiuzhi/Folio/releases/download/v0.1.3/Folio_0.1.3_x64-setup.exe)。
 
-**Linux x64**：下载 [AppImage](https://github.com/bujiuzhi/Folio/releases/download/v0.1.2/Folio_0.1.2_amd64.AppImage) 或适用于 Debian 12 / Ubuntu 24.04 的 [DEB](https://github.com/bujiuzhi/Folio/releases/download/v0.1.2/Folio_0.1.2_amd64.deb)。
+**Linux x64**：下载 [AppImage](https://github.com/bujiuzhi/Folio/releases/download/v0.1.3/Folio_0.1.3_amd64.AppImage) 或适用于 Debian / Ubuntu 的 [DEB](https://github.com/bujiuzhi/Folio/releases/download/v0.1.3/Folio_0.1.3_amd64.deb)。
 
 已安装 v0.1.1 或更新版本时，可在「偏好设置 → 外观 → 检查更新」下载并安装新版。v0.1.0 预览版需先手动安装一次。

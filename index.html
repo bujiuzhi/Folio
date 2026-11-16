@@ -7,7 +7,7 @@
 <title>Folio · 简页</title>
 <link rel="alternate" hreflang="en" href="en.html">
 <link rel="icon" href="folio.png">
-<link rel="stylesheet" href="showcase.css?v=play-button">
+<link rel="stylesheet" href="showcase.css?v=feature-list">
 </head>
 <body>
 <header class="masthead">
@@ -49,6 +49,44 @@
     </div>
   </section>
   <div class="detail-band">
+  <section class="capabilities additional" id="features" aria-labelledby="feature-title">
+    <h2 id="feature-title">功能清单</h2>
+    <div class="feature-groups">
+      <section class="feature-group">
+        <h3>写作与编辑</h3>
+        <dl>
+          <div><dt>草稿与代码</dt><dd>粘贴 JSON、YAML 或代码后自动识别并高亮，右下角可切换格式。支持格式化、查找替换和切换编码。</dd></div>
+          <div><dt>Markdown 与绘图</dt><dd>实时排版、源码和脑图视图随时切换。支持表格、待办、公式、Mermaid 和图片尺寸调整，也可插入 Excalidraw 画布。</dd></div>
+          <div><dt>导出文档</dt><dd>从文档菜单把 Markdown 保存为 Word、HTML 或 PDF，也可把原稿和本地资源打包成 ZIP。</dd></div>
+        </dl>
+      </section>
+      <section class="feature-group">
+        <h3>阅读与文件格式</h3>
+        <dl>
+          <div><dt>PDF 与 EPUB</dt><dd>用目录和书签定位，选中文字划线或记笔记。点正文高亮在右侧看笔记，把摘录按页或章节导出为 XMind。</dd></div>
+          <div><dt>Word 与 Excel</dt><dd>直接打开 DOCX 和 XLSX，修改普通正文、已有普通单元格和部分公式。数组公式区域只读。</dd></div>
+          <div><dt>脑图、图片与 LaTeX</dt><dd>打开 XMind 可拖动画布、滚轮缩放和编辑主题。常见图片可直接预览，LaTeX 可打开同目录的同名 PDF 成稿。</dd></div>
+        </dl>
+      </section>
+      <section class="feature-group">
+        <h3>终端与远程</h3>
+        <dl>
+          <div><dt>本地终端与 SSH</dt><dd>从当前目录启动 Shell。在「远程」按组找主机、打开 SSH，或运行保存的常用脚本。</dd></div>
+          <div><dt>多标签 SFTP</dt><dd>给不同主机各开一个标签，在本机和服务器之间上传或下载文件。</dd></div>
+          <div><dt>SSH 密钥与隧道</dt><dd>生成或导入 SSH 密钥，管理主机指纹。凭据用口令加密保存，支持本地、远程和 SOCKS 端口转发。</dd></div>
+        </dl>
+      </section>
+      <section class="feature-group">
+        <h3>工作区与协作</h3>
+        <dl>
+          <div><dt>搜索、版本历史与 Git</dt><dd>按文件名、路径或正文查找。比较外部改动或查看旧版本，并在已有 Git 仓库暂存、提交、拉取和推送。</dd></div>
+          <div><dt>AI 对话与 MCP</dt><dd>连接兼容的模型后，在编辑器旁提问，先看差异再应用文本改动。可单独授权本机 MCP 助手访问指定文件夹。</dd></div>
+          <div><dt>待办与专注</dt><dd>从首页查看 Markdown 待办或管理任务，切换列表、看板或日历。顶部时钟可开启专注计时。</dd></div>
+          <div><dt>主题、同步与备份</dt><dd>界面、编辑器和终端字体可以分别设置。主题、字体、阅读笔记和远程规则随工作区同步，也可导出加密设置备份。</dd></div>
+        </dl>
+      </section>
+    </div>
+  </section>
   <section class="capabilities local-files" id="local-files" aria-labelledby="local-title">
     <h2 id="local-title">文件留在本地</h2>
     <div class="grid">
@@ -62,17 +100,6 @@
       <article><strong>约 27 至 30 MB</strong><h3>安装包</h3><p>v0.1.5 的 macOS、Windows 和 Linux DEB 下载大小。便携 AppImage 约 109 MB。</p></article>
       <article><h3>按需加载排版组件</h3><p>用系统 WebView 显示界面。公式和图表按需加载，关闭最后一个 Markdown 文档时释放排版上下文。</p></article>
       <article><h3>后台索引文件</h3><p>打开文件夹就能开始编辑。Folio 在后台建立文件索引。</p></article>
-    </div>
-  </section>
-  <section class="capabilities additional" id="features" aria-labelledby="feature-title">
-    <h2 id="feature-title">更多功能</h2>
-    <div class="grid">
-      <article><h3>直接改 Word 和 Excel</h3><p>只改一段正文或一个普通单元格，直接在 Folio 打开 DOCX 或 XLSX 就能改，省得另开 WPS 或 Office。图片也能直接看。</p></article>
-      <article><h3>AI 对话与文本修改</h3><p>配置兼容的模型 API 后，可以在编辑器旁提问。AI 建议改文件时，可以先看差异，再决定是否应用。</p></article>
-      <article><h3>SSH 隧道与端口转发</h3><p>保存本地、远程或动态 SOCKS 转发规则，在远程工作台查看状态、启动和停止。</p></article>
-      <article><h3>PDF、EPUB 与阅读脑图</h3><p>选中文字记笔记，留空保存就是划线。点正文高亮在右侧看笔记，也能从笔记回到原文。整本书的摘录可按页或章节导出成 XMind。</p></article>
-      <article><h3>找文件、看历史</h3><p>按文件名或正文搜索。文件被外部修改时先看差异，也可以打开历史版本。</p></article>
-      <article><h3>本地终端与 Git</h3><p>从项目目录启动 Shell，查看 Git 分支和改动，按需暂存、提交、拉取或推送。</p></article>
     </div>
   </section>
   </div>

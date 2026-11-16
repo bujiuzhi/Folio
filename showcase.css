@@ -65,3 +65,14 @@ html[lang=en] .hero h1{font-size:clamp(46px,5.4vw,79px);letter-spacing:-.055em}
 .hero-play:hover{background:#225589}
 .hero-play:focus-visible{outline:3px solid #72b9f8;outline-offset:4px}
 .hero-play span{width:26%;height:32%;margin-left:5%;background:#fff;clip-path:polygon(0 0,100% 50%,0 100%)}
+
+.additional{margin:0 0 clamp(44px,7vw,84px)}
+.feature-groups{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.feature-group{padding:clamp(16px,2.4vw,28px);border:1px solid var(--line);border-radius:12px;background:#172337}
+.feature-group h3{color:var(--accent);margin:0 0 12px}
+.feature-group dl{margin:0}
+.feature-group dl>div{padding:12px 0;border-top:1px solid var(--line)}
+.feature-group dl>div:last-child{padding-bottom:0}
+.feature-group dt{font-weight:700}
+.feature-group dd{margin:5px 0 0;color:var(--muted)}
+@media(max-width:640px){.feature-groups{grid-template-columns:1fr}}

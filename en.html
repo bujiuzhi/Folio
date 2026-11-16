@@ -7,7 +7,7 @@
 <title>Folio</title>
 <link rel="alternate" hreflang="zh-CN" href="index.html">
 <link rel="icon" href="folio.png">
-<link rel="stylesheet" href="showcase.css?v=inline-film">
+<link rel="stylesheet" href="showcase.css?v=play-button">
 </head>
 <body>
 <header class="masthead">
@@ -22,7 +22,7 @@
       <p>Open a project folder and edit your files. Use the Remote tab to run commands over SSH or transfer files with SFTP.</p>
       <div class="actions"><a class="button" href="#download">Download Folio <span aria-hidden="true">↓</span></a><a class="hero-link" href="#workbench">Explore features <span aria-hidden="true">↓</span></a></div>
     </div>
-    <div class="hero-screen"><video controls playsinline preload="none" poster="film-poster.jpg" width="960" height="540" aria-label="Folio product film" src="folio.mp4?v=promo2"></video></div>
+    <div class="hero-screen"><video controls muted playsinline preload="none" poster="film-poster.jpg" width="960" height="540" aria-label="Folio product film" src="folio.mp4?v=promo2"></video><button class="hero-play" type="button" aria-label="Play the product film" hidden><span aria-hidden="true"></span></button></div>
   </section>
 
   <section class="workbench" id="workbench" aria-labelledby="workbench-title">
@@ -103,5 +103,6 @@
   </section>
 </main>
 <script type="module" src="showcase.js"></script>
+<script type="module" src="film-controls.js"></script>
 </body>
 </html>

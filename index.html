@@ -39,8 +39,8 @@
         </div>
       </figure>
       <div class="story-steps">
-        <article class="story-step" id="paste"><h3>粘贴后识别格式</h3><p>群里发来一行 JSON，只想改两个值。点「新建草稿」贴进去，Folio 会识别格式并高亮。点「格式化」展开缩进，改完再保存。</p></article>
-        <article class="story-step" id="markdown"><h3>Markdown 边写边看</h3><p>写完一段说明，想看表格和待办有没有排对。打开 Markdown 笔记，排版随文字更新，也可以随时切回源码或思维导图。</p></article>
+        <article class="story-step" id="paste"><h3>粘贴后识别格式</h3><p>群里发来一行 JSON，只想改两个值。点「新建草稿」贴进去，Folio 会识别格式并高亮。识别错了可以在右下角切换格式。点「格式化」展开缩进，改完再保存。</p></article>
+        <article class="story-step" id="markdown"><h3>Markdown 边写边看</h3><p>写完一段说明，想看表格和待办有没有排对。打开 Markdown 笔记，排版随文字更新，图片可直接调宽度，写完还能导出为 Word、网页或 PDF。</p></article>
         <article class="story-step" id="drawing"><h3>在笔记里画图</h3><p>流程用文字说不清时，点绘图按钮打开 Excalidraw，或在 Markdown 里插入画布。保存后，图会显示在笔记里。截图也可以用「插入图片」放进正文。</p></article>
         <article class="story-step" id="hosts"><h3>主机分组</h3><p>开发机和测试机多了，地址容易记混。打开「远程」，按名称、地址或分组找主机，从同一行打开 SSH 或 SFTP。</p></article>
         <article class="story-step" id="terminal"><h3>SSH 终端</h3><p>测试机报错，得上去看看日志。点主机旁的「连接」打开 SSH 终端标签。每天都跑的命令可以存成脚本。</p></article>
@@ -59,7 +59,7 @@
   <section class="capabilities performance" id="performance" aria-labelledby="performance-title">
     <h2 id="performance-title">安装包与资源占用</h2>
     <div class="grid">
-      <article><strong>约 26 至 30 MB</strong><h3>安装包</h3><p>v0.1.4 的 macOS、Windows 和 Linux DEB 下载大小。便携 AppImage 约 108 MB。</p></article>
+      <article><strong>约 27 至 30 MB</strong><h3>安装包</h3><p>v0.1.5 的 macOS、Windows 和 Linux DEB 下载大小。便携 AppImage 约 109 MB。</p></article>
       <article><h3>按需加载排版组件</h3><p>用系统 WebView 显示界面。公式和图表按需加载，关闭最后一个 Markdown 文档时释放排版上下文。</p></article>
       <article><h3>后台索引文件</h3><p>打开文件夹就能开始编辑。Folio 在后台建立文件索引。</p></article>
     </div>
@@ -67,10 +67,10 @@
   <section class="capabilities additional" id="features" aria-labelledby="feature-title">
     <h2 id="feature-title">更多功能</h2>
     <div class="grid">
-      <article><h3>直接改 Word 和 Excel</h3><p>只改一段正文或一个普通单元格，直接在 Folio 打开 DOCX 或 XLSX 就能改，省得另开 WPS 或 Office。图片也能直接看，macOS 还支持 PDF 预览。</p></article>
+      <article><h3>直接改 Word 和 Excel</h3><p>只改一段正文或一个普通单元格，直接在 Folio 打开 DOCX 或 XLSX 就能改，省得另开 WPS 或 Office。图片也能直接看。</p></article>
       <article><h3>AI 对话与文本修改</h3><p>配置兼容的模型 API 后，可以在编辑器旁提问。AI 建议改文件时，可以先看差异，再决定是否应用。</p></article>
       <article><h3>SSH 隧道与端口转发</h3><p>保存本地、远程或动态 SOCKS 转发规则，在远程工作台查看状态、启动和停止。</p></article>
-      <article><h3>Markdown 与 XMind 思维导图</h3><p>把 Markdown 的标题和列表切成思维导图，也可以打开 XMind 文件并修改主题标题。</p></article>
+      <article><h3>PDF、EPUB 与阅读脑图</h3><p>选中文字划线或记笔记，点高亮回看。把一本书的摘录按页或章节导出成 XMind，拖动画布和滚轮缩放查看。</p></article>
       <article><h3>文件夹与历史</h3><p>按文件名或正文搜索。文件被外部修改时先看差异，也可以打开历史版本。</p></article>
       <article><h3>本地终端与 Git</h3><p>从项目目录启动 Shell，查看 Git 分支和改动，按需暂存、提交、拉取或推送。</p></article>
     </div>
@@ -78,25 +78,25 @@
   </div>
   <section class="download-section" id="download" aria-labelledby="download-title">
     <header class="download-heading">
-      <div><p class="download-version">v0.1.4</p><h2 id="download-title">下载 Folio</h2></div>
-      <a class="release-link" href="https://github.com/bujiuzhi/Folio/releases/tag/v0.1.4">发行说明与校验文件 ↗</a>
+      <div><p class="download-version">v0.1.5</p><h2 id="download-title">下载 Folio</h2></div>
+      <a class="release-link" href="https://github.com/bujiuzhi/Folio/releases/tag/v0.1.5">发行说明与校验文件 ↗</a>
     </header>
     <div class="download-platforms">
       <article class="download-platform"><h3>macOS</h3>
         <div class="download-options">
-        <a class="download-build" href="https://github.com/bujiuzhi/Folio/releases/download/v0.1.4/Folio_0.1.4_aarch64.dmg"><span><strong>Apple 芯片</strong><small>DMG · 28.5 MB</small></span><span class="download-arrow">↓</span></a>
-        <a class="download-build" href="https://github.com/bujiuzhi/Folio/releases/download/v0.1.4/Folio_0.1.4_x64.dmg"><span><strong>Intel</strong><small>DMG · 29.2 MB</small></span><span class="download-arrow">↓</span></a>
+        <a class="download-build" href="https://github.com/bujiuzhi/Folio/releases/download/v0.1.5/Folio_0.1.5_aarch64.dmg"><span><strong>Apple 芯片</strong><small>DMG · 29.1 MB</small></span><span class="download-arrow">↓</span></a>
+        <a class="download-build" href="https://github.com/bujiuzhi/Folio/releases/download/v0.1.5/Folio_0.1.5_x64.dmg"><span><strong>Intel</strong><small>DMG · 29.9 MB</small></span><span class="download-arrow">↓</span></a>
         </div>
       </article>
       <article class="download-platform"><h3>Windows</h3>
         <div class="download-options">
-        <a class="download-build" href="https://github.com/bujiuzhi/Folio/releases/download/v0.1.4/Folio_0.1.4_x64-setup.exe"><span><strong>Windows x64</strong><small>EXE · 26.8 MB</small></span><span class="download-arrow">↓</span></a>
+        <a class="download-build" href="https://github.com/bujiuzhi/Folio/releases/download/v0.1.5/Folio_0.1.5_x64-setup.exe"><span><strong>Windows x64</strong><small>EXE · 27.4 MB</small></span><span class="download-arrow">↓</span></a>
         </div>
       </article>
       <article class="download-platform"><h3>Linux</h3>
         <div class="download-options">
-        <a class="download-build" href="https://github.com/bujiuzhi/Folio/releases/download/v0.1.4/Folio_0.1.4_amd64.deb"><span><strong>DEB x64</strong><small>28.3 MB</small></span><span class="download-arrow">↓</span></a>
-        <a class="download-build" href="https://github.com/bujiuzhi/Folio/releases/download/v0.1.4/Folio_0.1.4_amd64.AppImage"><span><strong>AppImage x64</strong><small>108.3 MB</small></span><span class="download-arrow">↓</span></a>
+        <a class="download-build" href="https://github.com/bujiuzhi/Folio/releases/download/v0.1.5/Folio_0.1.5_amd64.deb"><span><strong>DEB x64</strong><small>29.0 MB</small></span><span class="download-arrow">↓</span></a>
+        <a class="download-build" href="https://github.com/bujiuzhi/Folio/releases/download/v0.1.5/Folio_0.1.5_amd64.AppImage"><span><strong>AppImage x64</strong><small>108.9 MB</small></span><span class="download-arrow">↓</span></a>
         </div>
       </article>
     </div>

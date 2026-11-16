@@ -2,7 +2,7 @@
   <img src="folio.png" width="72" height="72" alt="">
   <h1>Folio</h1>
   <p>Write Markdown, edit code, and connect to servers over SSH in one window.</p>
-  <p><a href="https://bujiuzhi.github.io/Folio/en.html">Website</a> · <a href="https://github.com/bujiuzhi/Folio/releases/tag/v0.1.4">Download v0.1.4</a> · <a href="https://bujiuzhi.github.io/Folio/folio.mp4">54-second demo</a></p>
+  <p><a href="https://bujiuzhi.github.io/Folio/en.html">Website</a> · <a href="https://github.com/bujiuzhi/Folio/releases/tag/v0.1.5">Download v0.1.5</a> · <a href="https://bujiuzhi.github.io/Folio/folio.mp4">54-second demo</a></p>
   <p><a href="README.md">中文</a> · <a href="README.en.md">English</a></p>
 </div>
 
@@ -10,9 +10,9 @@
 
 | Platform | Installer | Installation |
 | --- | --- | --- |
-| macOS | [Apple silicon](https://github.com/bujiuzhi/Folio/releases/download/v0.1.4/Folio_0.1.4_aarch64.dmg) · [Intel](https://github.com/bujiuzhi/Folio/releases/download/v0.1.4/Folio_0.1.4_x64.dmg) | Open the DMG and drag Folio into Applications. |
-| Windows x64 | [Installer](https://github.com/bujiuzhi/Folio/releases/download/v0.1.4/Folio_0.1.4_x64-setup.exe) | Run the downloaded EXE. |
-| Linux x64 | [DEB](https://github.com/bujiuzhi/Folio/releases/download/v0.1.4/Folio_0.1.4_amd64.deb) · [AppImage](https://github.com/bujiuzhi/Folio/releases/download/v0.1.4/Folio_0.1.4_amd64.AppImage) | Install the DEB with your package manager, or make the AppImage executable and run it. |
+| macOS | [Apple silicon](https://github.com/bujiuzhi/Folio/releases/download/v0.1.5/Folio_0.1.5_aarch64.dmg) · [Intel](https://github.com/bujiuzhi/Folio/releases/download/v0.1.5/Folio_0.1.5_x64.dmg) | Open the DMG and drag Folio into Applications. |
+| Windows x64 | [Installer](https://github.com/bujiuzhi/Folio/releases/download/v0.1.5/Folio_0.1.5_x64-setup.exe) | Run the downloaded EXE. |
+| Linux x64 | [DEB](https://github.com/bujiuzhi/Folio/releases/download/v0.1.5/Folio_0.1.5_amd64.deb) · [AppImage](https://github.com/bujiuzhi/Folio/releases/download/v0.1.5/Folio_0.1.5_amd64.AppImage) | Install the DEB with your package manager, or make the AppImage executable and run it. |
 
 For v0.1.1 and later, go to Preferences → Appearance → Check for Updates. If you have the v0.1.0 preview, download an installer.
 
@@ -37,17 +37,19 @@ For v0.1.1 and later, go to Preferences → Appearance → Check for Updates. If
 | Feature | How it works |
 | --- | --- |
 | Files and Git | Open a folder and search by name or content. Review changes or open earlier versions. Stage, commit, pull, and push in Git workspaces. |
-| Office and mind maps | Preview Word, Excel, images, and XMind, plus PDF on macOS. Edit plain Word paragraphs, existing ordinary Excel cells, and XMind topic titles. |
+| Office and mind maps | Preview Word, Excel, images, and XMind. Drag the XMind canvas to pan or scroll to zoom. Edit plain Word paragraphs, existing ordinary Excel cells, and XMind topic titles. |
+| PDF and EPUB reading | Highlight passages, add notes, and click a highlight to revisit it. Export highlights by page or chapter to XMind. |
+| Markdown export | Choose Word, HTML, PDF, or ZIP with images from Document Options → Export. Hover over an image in the editor to set its width. |
 | Local terminal and SSH tunnels | Start a shell in the project folder. Manage local, remote, and dynamic SOCKS forwarding rules in Remote. |
 | AI chat | Connect a compatible model API and ask questions beside the editor. Review suggested file changes before applying them. |
 
 Folio uses the system WebView, loads formula and diagram rendering on demand, and indexes files in the background.
 
-## What's new in v0.1.4
+## What's new in v0.1.5
 
-- The updater shows download progress and lets you cancel while downloading.
-- Fixed Windows paths when opening a terminal from the file tree.
-- A slashed eye indicates that hidden files are hidden.
-- AI replies now render Markdown. With workspace access enabled, reads proceed without repeated prompts. Creating or editing files still requires confirmation.
+- Highlight PDF and EPUB text, add notes and bookmarks, and export a reading map to XMind.
+- Detect commented YAML or choose a different draft format from the notification.
+- Restore bundled examples and back up the previous files from workspace settings.
+- Fix WebView2 startup on affected Windows systems.
 
-[Release notes and checksums](https://github.com/bujiuzhi/Folio/releases/tag/v0.1.4)
+[Release notes and checksums](https://github.com/bujiuzhi/Folio/releases/tag/v0.1.5)

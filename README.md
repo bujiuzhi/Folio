@@ -2,7 +2,7 @@
   <img src="folio.png" width="72" height="72" alt="">
   <h1>Folio · 简页</h1>
   <p>在同一个窗口写 Markdown、改代码、用 SSH 连服务器。</p>
-  <p><a href="https://bujiuzhi.github.io/Folio/">官网</a> · <a href="https://github.com/bujiuzhi/Folio/releases/tag/v0.1.5">下载 v0.1.5</a> · <a href="https://bujiuzhi.github.io/Folio/folio.mp4">54 秒操作演示</a></p>
+  <p><a href="https://bujiuzhi.github.io/Folio/">官网</a> · <a href="https://github.com/bujiuzhi/Folio/releases/tag/v0.1.5">下载 v0.1.5</a> · <a href="https://bujiuzhi.github.io/Folio/folio.mp4?v=promo2">53 秒产品宣传片</a></p>
   <p><a href="README.md">中文</a> · <a href="README.en.md">English</a></p>
 </div>
 

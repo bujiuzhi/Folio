@@ -2,7 +2,7 @@
   <img src="folio.png" width="72" height="72" alt="">
   <h1>Folio</h1>
   <p>Write Markdown, edit code, and connect to servers over SSH in one window.</p>
-  <p><a href="https://bujiuzhi.github.io/Folio/en.html">Website</a> · <a href="https://github.com/bujiuzhi/Folio/releases/tag/v0.1.5">Download v0.1.5</a> · <a href="https://bujiuzhi.github.io/Folio/folio.mp4">54-second demo</a></p>
+  <p><a href="https://bujiuzhi.github.io/Folio/en.html">Website</a> · <a href="https://github.com/bujiuzhi/Folio/releases/tag/v0.1.5">Download v0.1.5</a> · <a href="https://bujiuzhi.github.io/Folio/folio.mp4?v=promo2">53-second product film</a></p>
   <p><a href="README.md">中文</a> · <a href="README.en.md">English</a></p>
 </div>
 

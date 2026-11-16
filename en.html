@@ -7,7 +7,7 @@
 <title>Folio</title>
 <link rel="alternate" hreflang="zh-CN" href="index.html">
 <link rel="icon" href="folio.png">
-<link rel="stylesheet" href="showcase.css?v=film">
+<link rel="stylesheet" href="showcase.css?v=inline-film">
 </head>
 <body>
 <header class="masthead">
@@ -20,9 +20,9 @@
     <div class="hero-copy">
       <h1 id="hero-title">Notes and code<br><em>SSH when you need it</em></h1>
       <p>Open a project folder and edit your files. Use the Remote tab to run commands over SSH or transfer files with SFTP.</p>
-      <div class="actions"><a class="button" href="#download">Download Folio <span aria-hidden="true">↓</span></a><a class="hero-link" href="#workbench">Explore features <span aria-hidden="true">↓</span></a><a class="hero-link" href="folio.mp4?v=promo2" data-open-film>Watch the film <span aria-hidden="true">▶</span></a></div>
+      <div class="actions"><a class="button" href="#download">Download Folio <span aria-hidden="true">↓</span></a><a class="hero-link" href="#workbench">Explore features <span aria-hidden="true">↓</span></a></div>
     </div>
-    <div class="hero-screen"><img src="markdown-poster.jpg" width="1150" height="700" fetchpriority="high" alt="A Markdown release checklist in Folio"></div>
+    <div class="hero-screen"><video controls playsinline preload="none" poster="film-poster.jpg" width="960" height="540" aria-label="Folio product film" src="folio.mp4?v=promo2"></video></div>
   </section>
 
   <section class="workbench" id="workbench" aria-labelledby="workbench-title">
@@ -102,11 +102,6 @@
     </div>
   </section>
 </main>
-<dialog class="film-dialog" aria-labelledby="film-title">
-  <header><h2 id="film-title">Folio product film</h2><form method="dialog"><button type="submit" autofocus>Close</button></form></header>
-  <video controls playsinline preload="none" poster="markdown-poster.jpg" aria-label="Folio product film" src="folio.mp4?v=promo2"></video>
-</dialog>
-<script type="module" src="film.js"></script>
 <script type="module" src="showcase.js"></script>
 </body>
 </html>

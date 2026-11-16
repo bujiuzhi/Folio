@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Folio is a desktop editor for local files, Markdown, SSH, and SFTP.">
+<meta name="description" content="Folio is a local workspace for Markdown, code, PDF and EPUB notes, and remote work over SSH and SFTP.">
 <title>Folio</title>
 <link rel="alternate" hreflang="zh-CN" href="index.html">
 <link rel="icon" href="folio.png">
@@ -19,7 +19,7 @@
     <div class="hero-orbit" aria-hidden="true"></div>
     <div class="hero-copy">
       <h1 id="hero-title">Notes and code<br><em>SSH when you need it</em></h1>
-      <p>Open a project folder and edit your files. Use the Remote tab to run commands over SSH or transfer files with SFTP.</p>
+      <p>Open a folder to write Markdown, edit configs, or annotate PDFs and EPUBs. When you need to check server logs or move files, open an SSH or SFTP tab from Remote.</p>
       <div class="actions"><a class="button" href="#download">Download Folio <span aria-hidden="true">↓</span></a><a class="hero-link" href="#workbench">Explore features <span aria-hidden="true">↓</span></a></div>
     </div>
     <div class="hero-screen"><video controls muted playsinline preload="none" poster="film-poster.jpg" width="960" height="540" aria-label="Folio product film" src="folio.mp4?v=promo2"></video><button class="hero-play" type="button" aria-label="Play the product film" hidden><span aria-hidden="true"></span></button></div>
@@ -39,7 +39,7 @@
         </div>
       </figure>
       <div class="story-steps">
-        <article class="story-step" id="paste"><h3>Paste into a draft</h3><p>A one-line JSON snippet lands in chat and you need to change two values. Paste it into a new draft for syntax highlighting. Click Format to fix the indentation, then edit and save.</p></article>
+        <article class="story-step" id="paste"><h3>Paste into a draft</h3><p>Paste a JSON snippet or YAML with comments into a new draft. Folio detects the format and highlights the text. Change the detected format in the lower-right corner, or click Format to tidy up indentation.</p></article>
         <article class="story-step" id="markdown"><h3>Live Markdown</h3><p>Need to check how a table or checklist looks? Open the Markdown note and see the layout update as you type. Resize images as you work, then export the note as Word, HTML, or PDF.</p></article>
         <article class="story-step" id="drawing"><h3>Draw inside a note</h3><p>When a process is hard to describe in words, open Excalidraw from the toolbar or insert a canvas in Markdown. Save the drawing to see it in the note. Use Insert Image to add a screenshot.</p></article>
         <article class="story-step" id="hosts"><h3>Organize hosts</h3><p>Development and test hosts can be easy to mix up. Open Remote and search by name, address, or group. Start SSH or SFTP from the host row.</p></article>
@@ -52,8 +52,8 @@
   <section class="capabilities local-files" id="local-files" aria-labelledby="local-title">
     <h2 id="local-title">Your files stay local</h2>
     <div class="grid">
-      <article><h3>Keep working offline</h3><p>Edit and save files in your own folder, render Markdown, and draw in Excalidraw. SSH, SFTP, and hosted AI services need a connection.</p></article>
-      <article><h3>Passphrase-protected credentials</h3><p>Workspace SSH private keys, passwords, and trusted host fingerprints are encrypted. When you save model settings to the workspace, the API key is encrypted too. Use the matching passphrase to unlock each set of settings on another computer.</p></article>
+      <article><h3>Keep working offline</h3><p>Write Markdown, draw in Excalidraw, and read local PDFs and EPUBs offline. SSH, SFTP, and hosted AI services need a connection.</p></article>
+      <article><h3>Pick up on another computer</h3><p>Sync the workspace with iCloud or another folder sync tool to take your reading notes, theme, and font settings with you. Workspace SSH credentials and model API keys are encrypted. Use the original passphrases to unlock them.</p></article>
     </div>
   </section>
   <section class="capabilities performance" id="performance" aria-labelledby="performance-title">
@@ -70,8 +70,8 @@
       <article><h3>Edit Word and Excel in place</h3><p>For a quick change to a Word paragraph or an existing ordinary Excel cell, open the DOCX or XLSX in Folio and edit it there. You can also preview images.</p></article>
       <article><h3>AI chat and edits</h3><p>Connect a compatible model API to ask questions beside the editor. Review suggested file changes before applying them.</p></article>
       <article><h3>SSH tunnels and forwarding</h3><p>Save local, remote, or dynamic SOCKS forwarding rules. Start, stop, and monitor them in Remote.</p></article>
-      <article><h3>PDF, EPUB, and reading maps</h3><p>Highlight passages, add notes, and click a highlight to revisit it. Export highlights by page or chapter to XMind, then drag the canvas or scroll to zoom.</p></article>
-      <article><h3>Folders and history</h3><p>Search file names or contents. Review external changes or open earlier versions.</p></article>
+      <article><h3>PDF, EPUB, and reading maps</h3><p>Select text to add a note or save a highlight. Click highlighted text to see the note in the sidebar, or jump from a note back to the passage. Export the whole book’s highlights to XMind, grouped by page or chapter.</p></article>
+      <article><h3>Find files and review history</h3><p>Search file names or contents. Review external changes or open earlier versions.</p></article>
       <article><h3>Local terminal and Git</h3><p>Open a shell in the project folder. View Git branches and changes, then stage, commit, pull, or push.</p></article>
     </div>
   </section>

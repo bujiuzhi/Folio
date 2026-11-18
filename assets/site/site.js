@@ -1,3 +1,4 @@
+const assetBase = new URL('../', document.currentScript.src);
 const tabList = document.querySelector('#workflow-tabs');
 const panel = document.querySelector('#workflow-panel');
 const video = document.querySelector('#film');
@@ -20,8 +21,8 @@ function playAt(player, time) {
 function renderPanel(chapter) {
   const screenshot = element('div', '', 'screenshot');
   const clip = element('video');
-  clip.src = chapter.video;
-  clip.poster = chapter.id + '-poster.jpg';
+  clip.src = new URL('video/' + chapter.video, assetBase).href;
+  clip.poster = new URL('screenshots/' + chapter.id + '-poster.jpg', assetBase).href;
   clip.controls = true;
   clip.playsInline = true;
   clip.preload = 'metadata';
@@ -62,7 +63,7 @@ function initialize(chapters) {
     start += chapter.seconds;
     const label = Math.floor(time / 60) + ':' + String(time % 60).padStart(2, '0');
     const link = element('a', label + ' ' + chapter.label);
-    link.href = 'folio.mp4#t=' + time;
+    link.href = new URL('video/folio.mp4#t=' + time, assetBase).href;
     link.addEventListener('click', (event) => {
       if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
       event.preventDefault();
@@ -97,7 +98,7 @@ function initialize(chapters) {
   selectTab(0);
 }
 
-fetch('chapters.json')
+fetch(new URL('site/chapters.json', assetBase))
   .then((response) => {
     if (!response.ok) throw new Error('章节加载失败');
     return response.json();

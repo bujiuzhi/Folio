@@ -1,8 +1,8 @@
 <div align="center">
-  <img src="folio.png" width="72" height="72" alt="">
+  <img src="assets/brand/folio.png" width="72" height="72" alt="">
   <h1>Folio</h1>
   <p>A local workspace for Markdown, code, reading notes, and SSH.</p>
-  <p><a href="https://bujiuzhi.github.io/Folio/en.html">Website</a> · <a href="https://github.com/bujiuzhi/Folio/releases/tag/v0.1.6">Download v0.1.6</a> · <a href="https://bujiuzhi.github.io/Folio/folio.mp4?v=promo2">53-second product film</a></p>
+  <p><a href="https://bujiuzhi.github.io/Folio/en.html">Website</a> · <a href="https://github.com/bujiuzhi/Folio/releases/tag/v0.1.6">Download v0.1.6</a> · <a href="https://bujiuzhi.github.io/Folio/assets/video/folio.mp4?v=promo2">53-second product film</a></p>
   <p><a href="README.md">中文</a> · <a href="README.en.md">English</a></p>
 </div>
 
@@ -20,13 +20,13 @@ For v0.1.1 and later, go to Preferences → Appearance → Check for Updates. If
 
 <table>
   <tr><th width="33%">Paste and format</th><th width="33%">Live Markdown</th><th width="33%">Excalidraw</th></tr>
-  <tr><td><img src="draft.jpg" alt="Paste and format"></td><td><img src="markdown-poster.jpg" alt="Live Markdown"></td><td><img src="drawing-poster.jpg" alt="Excalidraw"></td></tr>
+  <tr><td><img src="assets/screenshots/draft.jpg" alt="Paste and format"></td><td><img src="assets/screenshots/markdown-poster.jpg" alt="Live Markdown"></td><td><img src="assets/screenshots/drawing-poster.jpg" alt="Excalidraw"></td></tr>
   <tr><td>Paste Markdown, JSON, YAML, or code into a new draft. Folio renders Markdown or highlights recognized syntax. Change the format in the lower-right corner, or use Format to fix indentation.</td><td>Headings, tables, and checklists update as you type. Switch to source or mind map view from the same note.</td><td>Open a canvas from the toolbar or insert a drawing into Markdown. Save it to see it in the note.</td></tr>
 </table>
 
 <table>
   <tr><th width="33%">Manage hosts</th><th width="33%">SSH terminal</th><th width="33%">SFTP transfers</th></tr>
-  <tr><td><img src="hosts.png" alt="Manage hosts"></td><td><img src="ssh-terminal.png" alt="SSH terminal"></td><td><img src="remote-poster.jpg" alt="SFTP transfers"></td></tr>
+  <tr><td><img src="assets/screenshots/hosts.png" alt="Manage hosts"></td><td><img src="assets/screenshots/ssh-terminal.png" alt="SSH terminal"></td><td><img src="assets/screenshots/remote-poster.jpg" alt="SFTP transfers"></td></tr>
   <tr><td>Find saved hosts in Remote by name, address, or group. Open SSH or SFTP from the host row.</td><td>Click Connect to open a terminal tab. Save commands you use often as scripts.</td><td>Open separate SFTP tabs for different hosts and upload or download files.</td></tr>
 </table>
 

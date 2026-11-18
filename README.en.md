@@ -2,7 +2,7 @@
   <img src="assets/brand/folio.png" width="72" height="72" alt="">
   <h1>Folio</h1>
   <p>A local workspace for Markdown, code, reading notes, and SSH.</p>
-  <p><a href="https://bujiuzhi.github.io/Folio/en.html">Website</a> · <a href="https://github.com/bujiuzhi/Folio/releases/tag/v0.1.6">Download v0.1.6</a> · <a href="https://bujiuzhi.github.io/Folio/assets/video/folio.mp4?v=promo2">53-second product film</a></p>
+  <p><a href="https://bujiuzhi.github.io/Folio/en.html">Website</a> · <a href="https://github.com/bujiuzhi/Folio/releases/tag/v0.1.7">Download v0.1.7</a> · <a href="https://bujiuzhi.github.io/Folio/assets/video/folio.mp4?v=promo2">53-second product film</a></p>
   <p><a href="README.md">中文</a> · <a href="README.en.md">English</a></p>
 </div>
 
@@ -10,9 +10,9 @@
 
 | Platform | Installer | Installation |
 | --- | --- | --- |
-| macOS | [Apple silicon](https://github.com/bujiuzhi/Folio/releases/download/v0.1.6/Folio_0.1.6_aarch64.dmg) · [Intel](https://github.com/bujiuzhi/Folio/releases/download/v0.1.6/Folio_0.1.6_x64.dmg) | Open the DMG and drag Folio into Applications. |
-| Windows x64 | [Installer](https://github.com/bujiuzhi/Folio/releases/download/v0.1.6/Folio_0.1.6_x64-setup.exe) | Run the downloaded EXE. |
-| Linux x64 | [DEB](https://github.com/bujiuzhi/Folio/releases/download/v0.1.6/Folio_0.1.6_amd64.deb) · [AppImage](https://github.com/bujiuzhi/Folio/releases/download/v0.1.6/Folio_0.1.6_amd64.AppImage) | Install the DEB with your package manager, or make the AppImage executable and run it. |
+| macOS | [Apple silicon](https://github.com/bujiuzhi/Folio/releases/download/v0.1.7/Folio_0.1.7_aarch64.dmg) · [Intel](https://github.com/bujiuzhi/Folio/releases/download/v0.1.7/Folio_0.1.7_x64.dmg) | Open the DMG and drag Folio into Applications. |
+| Windows x64 | [Installer](https://github.com/bujiuzhi/Folio/releases/download/v0.1.7/Folio_0.1.7_x64-setup.exe) | Run the downloaded EXE. |
+| Linux x64 | [DEB](https://github.com/bujiuzhi/Folio/releases/download/v0.1.7/Folio_0.1.7_amd64.deb) · [AppImage](https://github.com/bujiuzhi/Folio/releases/download/v0.1.7/Folio_0.1.7_amd64.AppImage) | Install the DEB with your package manager, or make the AppImage executable and run it. |
 
 For v0.1.1 and later, go to Preferences → Appearance → Check for Updates. If you have the v0.1.0 preview, download an installer.
 
@@ -50,15 +50,13 @@ Open the bundled reading examples to try the included notes, highlights, and min
 
 Folio uses the system WebView, loads formula and diagram rendering on demand, and indexes files in the background.
 
-## What's new in v0.1.6
+## What's new in v0.1.7
 
-- Use Typora-style shortcuts in both Markdown editing modes. Rebind, clear, or reset them in Preferences → Keyboard Shortcuts. Folio names the command that already uses a conflicting key.
-- Copy Markdown code blocks from the button in the top-right corner.
-- Drag folders to reorder or move them in the file tree, or move them to Trash from the context menu.
-- Open and save files or choose folders in Folio's own picker. Confirmation dialogs and focus indicators now share the same style.
-- Reset Examples clears the Examples folder and recreates the bundled files. Files outside the folder and reading annotations are preserved.
+- The toolbar and the file tree’s empty-area context menu create items in the workspace root. A folder’s context menu also offers a separate command to create a folder in the root.
+- Drag folders to reorder or move them across levels. Drop an Examples subfolder onto the workspace title or the empty area of the file tree to move it to the root.
+- Use Show in File Manager to select the file in Finder or Windows File Explorer, or open its containing folder on Linux.
 
-[Release notes](https://github.com/bujiuzhi/Folio/releases/tag/v0.1.6) · [SHA-256 checksums](https://github.com/bujiuzhi/Folio/releases/download/v0.1.6/SHA256SUMS.txt)
+[Release notes](https://github.com/bujiuzhi/Folio/releases/tag/v0.1.7) · [SHA-256 checksums](https://github.com/bujiuzhi/Folio/releases/download/v0.1.7/SHA256SUMS.txt)
 
 ## Feedback
 

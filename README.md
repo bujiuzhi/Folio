@@ -2,7 +2,7 @@
   <img src="assets/brand/folio.png" width="72" height="72" alt="">
   <h1>Folio · 简页</h1>
   <p>本地文件工作台。写 Markdown、改代码、给文档做笔记，也能用 SSH 连服务器。</p>
-  <p><a href="https://bujiuzhi.github.io/Folio/">官网</a> · <a href="https://github.com/bujiuzhi/Folio/releases/tag/v0.1.7">下载 v0.1.7</a> · <a href="https://bujiuzhi.github.io/Folio/assets/video/folio.mp4?v=promo2">53 秒产品宣传片</a></p>
+  <p><a href="https://bujiuzhi.github.io/Folio/">官网</a> · <a href="https://github.com/bujiuzhi/Folio/releases/tag/v0.1.8">下载 v0.1.8</a> · <a href="https://bujiuzhi.github.io/Folio/assets/video/folio.mp4?v=promo2">53 秒产品宣传片</a></p>
   <p><a href="README.md">中文</a> · <a href="README.en.md">English</a></p>
 </div>
 
@@ -10,9 +10,9 @@
 
 | 平台 | 安装包 | 怎么装 |
 | --- | --- | --- |
-| macOS | [Apple 芯片](https://github.com/bujiuzhi/Folio/releases/download/v0.1.7/Folio_0.1.7_aarch64.dmg) · [Intel](https://github.com/bujiuzhi/Folio/releases/download/v0.1.7/Folio_0.1.7_x64.dmg) | 打开 DMG，把 Folio 拖进「应用程序」。 |
-| Windows x64 | [安装程序](https://github.com/bujiuzhi/Folio/releases/download/v0.1.7/Folio_0.1.7_x64-setup.exe) | 运行下载的 EXE。 |
-| Linux x64 | [DEB](https://github.com/bujiuzhi/Folio/releases/download/v0.1.7/Folio_0.1.7_amd64.deb) · [AppImage](https://github.com/bujiuzhi/Folio/releases/download/v0.1.7/Folio_0.1.7_amd64.AppImage) | 用包管理器安装 DEB，或给 AppImage 执行权限后直接运行。 |
+| macOS | [Apple 芯片](https://github.com/bujiuzhi/Folio/releases/download/v0.1.8/Folio_0.1.8_aarch64.dmg) · [Intel](https://github.com/bujiuzhi/Folio/releases/download/v0.1.8/Folio_0.1.8_x64.dmg) | 打开 DMG，把 Folio 拖进「应用程序」。 |
+| Windows x64 | [安装程序](https://github.com/bujiuzhi/Folio/releases/download/v0.1.8/Folio_0.1.8_x64-setup.exe) | 运行下载的 EXE。 |
+| Linux x64 | [DEB](https://github.com/bujiuzhi/Folio/releases/download/v0.1.8/Folio_0.1.8_amd64.deb) · [AppImage](https://github.com/bujiuzhi/Folio/releases/download/v0.1.8/Folio_0.1.8_amd64.AppImage) | 用包管理器安装 DEB，或给 AppImage 执行权限后直接运行。 |
 
 已安装 v0.1.1 或更新版本，可到「偏好设置 → 外观 → 检查更新」升级。v0.1.0 预览版请下载安装包。
 
@@ -50,13 +50,12 @@
 
 Folio 用系统 WebView 显示界面，公式和图表按需加载，文件索引在后台建立。
 
-## v0.1.7 更新
+## v0.1.8 更新
 
-- 顶部新建按钮和文件树空白处的右键菜单在工作区根目录创建。右键子目录时，也可以直接选择「在工作区根目录新建文件夹」。
-- 文件夹可拖动排序和跨层移动。把「示例」里的子目录拖到工作区标题或文件树空白处，即可移到根目录。
-- 文件右键改为「在文件管理器中显示」。macOS 和 Windows 会选中文件，Linux 会打开所在目录。
+- Markdown 排版模式下，点击代码块右上角的复制图标，只复制块内文字，保留缩进、空行和换行。
+- 点击旁边的语言菜单即可更换语法高亮。编辑时菜单依然可用，切换可撤销。
 
-[发行说明](https://github.com/bujiuzhi/Folio/releases/tag/v0.1.7) · [SHA-256 校验文件](https://github.com/bujiuzhi/Folio/releases/download/v0.1.7/SHA256SUMS.txt)
+[发行说明](https://github.com/bujiuzhi/Folio/releases/tag/v0.1.8) · [SHA-256 校验文件](https://github.com/bujiuzhi/Folio/releases/download/v0.1.8/SHA256SUMS.txt)
 
 ## 反馈
 

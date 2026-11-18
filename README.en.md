@@ -10,9 +10,6 @@
 
 | Platform | Installer | Installation |
 | --- | --- | --- |
-| Drafts and code | Paste into a new draft for format detection and syntax highlighting. The editor also supports formatting, find and replace, line jumps, and encoding changes. |
-| Markdown and drawing | Open Markdown in live layout, source, or mind map view. Open Excalidraw from the toolbar or add a canvas to a note. |
-| SSH and SFTP | Group hosts and save scripts in Remote. Open SSH and SFTP tabs for multiple hosts at the same time. |
 | macOS | [Apple silicon](https://github.com/bujiuzhi/Folio/releases/download/v0.1.6/Folio_0.1.6_aarch64.dmg) · [Intel](https://github.com/bujiuzhi/Folio/releases/download/v0.1.6/Folio_0.1.6_x64.dmg) | Open the DMG and drag Folio into Applications. |
 | Windows x64 | [Installer](https://github.com/bujiuzhi/Folio/releases/download/v0.1.6/Folio_0.1.6_x64-setup.exe) | Run the downloaded EXE. |
 | Linux x64 | [DEB](https://github.com/bujiuzhi/Folio/releases/download/v0.1.6/Folio_0.1.6_amd64.deb) · [AppImage](https://github.com/bujiuzhi/Folio/releases/download/v0.1.6/Folio_0.1.6_amd64.AppImage) | Install the DEB with your package manager, or make the AppImage executable and run it. |
@@ -39,6 +36,9 @@ For v0.1.1 and later, go to Preferences → Appearance → Check for Updates. If
 
 | Feature | How it works |
 | --- | --- |
+| Drafts and code | Paste into a new draft for format detection and syntax highlighting. The editor also supports formatting, find and replace, line jumps, and encoding changes. |
+| Markdown and drawing | Open Markdown in live layout, source, or mind map view. Open Excalidraw from the toolbar or add a canvas to a note. |
+| SSH and SFTP | Group hosts and save scripts in Remote. Open SSH and SFTP tabs for multiple hosts at the same time. |
 | Files and Git | Open a folder and search by name or content. Review changes or open earlier versions. Stage, commit, pull, and push in Git workspaces. |
 | Office and mind maps | Preview Word, Excel, images, and XMind. Drag the XMind canvas to pan or scroll to zoom. Edit plain Word paragraphs, existing ordinary Excel cells, and XMind topic titles. |
 | PDF and EPUB reading | Select text to add a note or save a highlight. Click a highlight to open its note in the sidebar, or jump back from the note to the passage. Export highlights to XMind by page or chapter. |
@@ -58,4 +58,8 @@ Folio uses the system WebView, loads formula and diagram rendering on demand, an
 - Open and save files or choose folders in Folio's own picker. Confirmation dialogs and focus indicators now share the same style.
 - Reset Examples clears the Examples folder and recreates the bundled files. Files outside the folder and reading annotations are preserved.
 
-[Release notes and checksums](https://github.com/bujiuzhi/Folio/releases/tag/v0.1.6)
+[Release notes](https://github.com/bujiuzhi/Folio/releases/tag/v0.1.6) · [SHA-256 checksums](https://github.com/bujiuzhi/Folio/releases/download/v0.1.6/SHA256SUMS.txt)
+
+## Feedback
+
+Open a [bug report](https://github.com/bujiuzhi/Folio/issues/new?template=bug-report.md) or a [feature request](https://github.com/bujiuzhi/Folio/issues/new?template=feature-request.md).

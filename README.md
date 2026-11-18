@@ -10,9 +10,6 @@
 
 | 平台 | 安装包 | 怎么装 |
 | --- | --- | --- |
-| 草稿和代码 | 从「新建草稿」粘贴文本，自动识别并高亮。编辑器支持格式化、查找替换、跳行和编码切换。 |
-| Markdown 与绘图 | 打开 Markdown 实时排版，可切换源码和思维导图。点画笔打开 Excalidraw，也可以把画布插入笔记。 |
-| SSH 和 SFTP | 从「远程」按分组管理主机、保存常用脚本，同时打开多台主机的终端和文件传输标签。 |
 | macOS | [Apple 芯片](https://github.com/bujiuzhi/Folio/releases/download/v0.1.6/Folio_0.1.6_aarch64.dmg) · [Intel](https://github.com/bujiuzhi/Folio/releases/download/v0.1.6/Folio_0.1.6_x64.dmg) | 打开 DMG，把 Folio 拖进「应用程序」。 |
 | Windows x64 | [安装程序](https://github.com/bujiuzhi/Folio/releases/download/v0.1.6/Folio_0.1.6_x64-setup.exe) | 运行下载的 EXE。 |
 | Linux x64 | [DEB](https://github.com/bujiuzhi/Folio/releases/download/v0.1.6/Folio_0.1.6_amd64.deb) · [AppImage](https://github.com/bujiuzhi/Folio/releases/download/v0.1.6/Folio_0.1.6_amd64.AppImage) | 用包管理器安装 DEB，或给 AppImage 执行权限后直接运行。 |
@@ -39,6 +36,9 @@
 
 | 功能 | 用法 |
 | --- | --- |
+| 草稿和代码 | 从「新建草稿」粘贴文本，自动识别并高亮。编辑器支持格式化、查找替换、跳行和编码切换。 |
+| Markdown 与绘图 | 打开 Markdown 实时排版，可切换源码和思维导图。点画笔打开 Excalidraw，也可以把画布插入笔记。 |
+| SSH 和 SFTP | 从「远程」按分组管理主机、保存常用脚本，同时打开多台主机的终端和文件传输标签。 |
 | 文件与 Git | 打开文件夹后按名称或正文搜索。保存前可查看文件差异，也能查看历史版本。在 Git 工作区可暂存、提交、拉取和推送。 |
 | Office 与导图 | 预览 Word、Excel、图片和 XMind。打开 XMind 后可拖动画布、滚轮缩放。可编辑 Word 普通正文、Excel 已有的普通单元格和 XMind 主题标题。 |
 | PDF 和 EPUB 阅读 | 选中文字记笔记，留空保存就是划线。点高亮在右侧看笔记，可跳回原文，也可把整本书的划线按页或章节导出为 XMind。 |
@@ -58,4 +58,8 @@ Folio 用系统 WebView 显示界面，公式和图表按需加载，文件索�
 - 打开、另存和选择文件夹统一使用 Folio 内置选择器，确认对话框与键盘焦点样式也已统一。
 - 「初始化示例」会清空「示例」目录并重新生成默认文件。目录外的文件和阅读标注会保留。
 
-[发行说明与校验文件](https://github.com/bujiuzhi/Folio/releases/tag/v0.1.6)
+[发行说明](https://github.com/bujiuzhi/Folio/releases/tag/v0.1.6) · [SHA-256 校验文件](https://github.com/bujiuzhi/Folio/releases/download/v0.1.6/SHA256SUMS.txt)
+
+## 反馈
+
+遇到问题可提交 [Bug 反馈](https://github.com/bujiuzhi/Folio/issues/new?template=bug-report.md)，也可提交 [功能建议](https://github.com/bujiuzhi/Folio/issues/new?template=feature-request.md)。

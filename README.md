@@ -2,7 +2,7 @@
   <img src="assets/brand/folio.png" width="72" height="72" alt="">
   <h1>Folio · 简页</h1>
   <p>本地文件工作台。写 Markdown、改代码、给文档做笔记，也能用 SSH 连服务器。</p>
-  <p><a href="https://bujiuzhi.github.io/Folio/">官网</a> · <a href="https://github.com/bujiuzhi/Folio/releases/tag/v0.1.9">下载 v0.1.9</a> · <a href="https://bujiuzhi.github.io/Folio/assets/video/folio.mp4?v=promo2">53 秒产品宣传片</a></p>
+  <p><a href="https://bujiuzhi.github.io/Folio/">官网</a> · <a href="https://github.com/bujiuzhi/Folio/releases/tag/v0.1.10">下载 v0.1.10</a> · <a href="https://bujiuzhi.github.io/Folio/assets/video/folio.mp4?v=promo2">53 秒产品宣传片</a></p>
   <p><a href="README.md">中文</a> · <a href="README.en.md">English</a></p>
 </div>
 
@@ -10,9 +10,9 @@
 
 | 平台 | 安装包 | 怎么装 |
 | --- | --- | --- |
-| macOS | [Apple 芯片](https://github.com/bujiuzhi/Folio/releases/download/v0.1.9/Folio_0.1.9_aarch64.dmg) · [Intel](https://github.com/bujiuzhi/Folio/releases/download/v0.1.9/Folio_0.1.9_x64.dmg) | 打开 DMG，把 Folio 拖进「应用程序」。 |
-| Windows x64 | [安装程序](https://github.com/bujiuzhi/Folio/releases/download/v0.1.9/Folio_0.1.9_x64-setup.exe) | 运行下载的 EXE。 |
-| Linux x64 | [DEB](https://github.com/bujiuzhi/Folio/releases/download/v0.1.9/Folio_0.1.9_amd64.deb) · [AppImage](https://github.com/bujiuzhi/Folio/releases/download/v0.1.9/Folio_0.1.9_amd64.AppImage) | 用包管理器安装 DEB，或给 AppImage 执行权限后直接运行。 |
+| macOS | [Apple 芯片](https://github.com/bujiuzhi/Folio/releases/download/v0.1.10/Folio_0.1.10_aarch64.dmg) · [Intel](https://github.com/bujiuzhi/Folio/releases/download/v0.1.10/Folio_0.1.10_x64.dmg) | 打开 DMG，把 Folio 拖进「应用程序」。 |
+| Windows x64 | [安装程序](https://github.com/bujiuzhi/Folio/releases/download/v0.1.10/Folio_0.1.10_x64-setup.exe) | 运行下载的 EXE。 |
+| Linux x64 | [DEB](https://github.com/bujiuzhi/Folio/releases/download/v0.1.10/Folio_0.1.10_amd64.deb) · [AppImage](https://github.com/bujiuzhi/Folio/releases/download/v0.1.10/Folio_0.1.10_amd64.AppImage) | 用包管理器安装 DEB，或给 AppImage 执行权限后直接运行。 |
 
 已安装 v0.1.1 或更新版本，可到「偏好设置 → 外观 → 检查更新」升级。v0.1.0 预览版请下载安装包。
 
@@ -39,7 +39,7 @@
 | 草稿和代码 | 从「新建草稿」粘贴文本，自动识别并高亮。编辑器支持格式化、查找替换、跳行和编码切换。 |
 | Markdown 与绘图 | 打开 Markdown 实时排版，可切换源码和思维导图。点画笔打开 Excalidraw，也可以把画布插入笔记。 |
 | SSH 和 SFTP | 从「远程」按分组管理主机、保存常用脚本，同时打开多台主机的终端和文件传输标签。 |
-| 文件与 Git | 打开文件夹后按名称或正文搜索。保存前可查看文件差异，也能查看历史版本。在 Git 工作区可暂存、提交、拉取和推送。 |
+| 文件与 Git | 在文件树拖动文件或文件夹，右键可移回根目录。打开工作区后可按名称或正文搜索。保存前可查看文件差异，也能查看历史版本。在 Git 工作区可暂存、提交、拉取和推送。 |
 | Office 与导图 | 预览 Word、Excel、图片和 XMind。打开 XMind 后可拖动画布、滚轮缩放。可编辑 Word 普通正文、Excel 已有的普通单元格和 XMind 主题标题。 |
 | PDF 和 EPUB 阅读 | 选中文字记笔记，留空保存就是划线。点高亮在右侧看笔记，可跳回原文，也可把整本书的划线按页或章节导出为 XMind。 |
 | Markdown 导出 | 在「文档选项 → 导出」选择 Word、网页、PDF 或含图片的 ZIP。鼠标移到正文图片上可以设置宽度。 |
@@ -50,13 +50,12 @@
 
 Folio 用系统 WebView 显示界面，公式和图表按需加载，文件索引在后台建立。
 
-## v0.1.9 更新
+## v0.1.10 更新
 
-- 在 Markdown 代码块右上角搜索 Java 等语言，或输入自定义标识。内置语言在排版和编辑时都有高亮。
-- 光标在代码块内时，第一次全选只选块内内容，再按一次选中全文。右上角的复制按钮可直接复制代码，确认提示会自动收起。
-- 修复终端底部黑条、Markdown 代码块顶部空白和 macOS 更新包解包失败。
+- 文件可以拖进其他文件夹，也可以拖到工作区标题、文件树空白处，或右键移回根目录。
+- 拖到文件树上下边缘会滚动。悬停在折叠文件夹上会自动展开，可继续拖入下一级。
 
-[发行说明](https://github.com/bujiuzhi/Folio/releases/tag/v0.1.9) · [SHA-256 校验文件](https://github.com/bujiuzhi/Folio/releases/download/v0.1.9/SHA256SUMS.txt)
+[发行说明](https://github.com/bujiuzhi/Folio/releases/tag/v0.1.10) · [SHA-256 校验文件](https://github.com/bujiuzhi/Folio/releases/download/v0.1.10/SHA256SUMS.txt)
 
 ## 反馈
 

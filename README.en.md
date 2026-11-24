@@ -2,7 +2,7 @@
   <img src="assets/brand/folio.png" width="72" height="72" alt="">
   <h1>Folio</h1>
   <p>A local workspace for Markdown, code, reading notes, and SSH.</p>
-  <p><a href="https://bujiuzhi.github.io/Folio/en.html">Website</a> · <a href="https://github.com/bujiuzhi/Folio/releases/tag/v0.1.9">Download v0.1.9</a> · <a href="https://bujiuzhi.github.io/Folio/assets/video/folio.mp4?v=promo2">53-second product film</a></p>
+  <p><a href="https://bujiuzhi.github.io/Folio/en.html">Website</a> · <a href="https://github.com/bujiuzhi/Folio/releases/tag/v0.1.10">Download v0.1.10</a> · <a href="https://bujiuzhi.github.io/Folio/assets/video/folio.mp4?v=promo2">53-second product film</a></p>
   <p><a href="README.md">中文</a> · <a href="README.en.md">English</a></p>
 </div>
 
@@ -10,9 +10,9 @@
 
 | Platform | Installer | Installation |
 | --- | --- | --- |
-| macOS | [Apple silicon](https://github.com/bujiuzhi/Folio/releases/download/v0.1.9/Folio_0.1.9_aarch64.dmg) · [Intel](https://github.com/bujiuzhi/Folio/releases/download/v0.1.9/Folio_0.1.9_x64.dmg) | Open the DMG and drag Folio into Applications. |
-| Windows x64 | [Installer](https://github.com/bujiuzhi/Folio/releases/download/v0.1.9/Folio_0.1.9_x64-setup.exe) | Run the downloaded EXE. |
-| Linux x64 | [DEB](https://github.com/bujiuzhi/Folio/releases/download/v0.1.9/Folio_0.1.9_amd64.deb) · [AppImage](https://github.com/bujiuzhi/Folio/releases/download/v0.1.9/Folio_0.1.9_amd64.AppImage) | Install the DEB with your package manager, or make the AppImage executable and run it. |
+| macOS | [Apple silicon](https://github.com/bujiuzhi/Folio/releases/download/v0.1.10/Folio_0.1.10_aarch64.dmg) · [Intel](https://github.com/bujiuzhi/Folio/releases/download/v0.1.10/Folio_0.1.10_x64.dmg) | Open the DMG and drag Folio into Applications. |
+| Windows x64 | [Installer](https://github.com/bujiuzhi/Folio/releases/download/v0.1.10/Folio_0.1.10_x64-setup.exe) | Run the downloaded EXE. |
+| Linux x64 | [DEB](https://github.com/bujiuzhi/Folio/releases/download/v0.1.10/Folio_0.1.10_amd64.deb) · [AppImage](https://github.com/bujiuzhi/Folio/releases/download/v0.1.10/Folio_0.1.10_amd64.AppImage) | Install the DEB with your package manager, or make the AppImage executable and run it. |
 
 For v0.1.1 and later, go to Preferences → Appearance → Check for Updates. If you have the v0.1.0 preview, download an installer.
 
@@ -39,7 +39,7 @@ For v0.1.1 and later, go to Preferences → Appearance → Check for Updates. If
 | Drafts and code | Paste into a new draft for format detection and syntax highlighting. The editor also supports formatting, find and replace, line jumps, and encoding changes. |
 | Markdown and drawing | Open Markdown in live layout, source, or mind map view. Open Excalidraw from the toolbar or add a canvas to a note. |
 | SSH and SFTP | Group hosts and save scripts in Remote. Open SSH and SFTP tabs for multiple hosts at the same time. |
-| Files and Git | Open a folder and search by name or content. Review changes or open earlier versions. Stage, commit, pull, and push in Git workspaces. |
+| Files and Git | Drag files and folders in the file tree or move them to the root from the context menu. Search by name or content. Review changes or open earlier versions. Stage, commit, pull, and push in Git workspaces. |
 | Office and mind maps | Preview Word, Excel, images, and XMind. Drag the XMind canvas to pan or scroll to zoom. Edit plain Word paragraphs, existing ordinary Excel cells, and XMind topic titles. |
 | PDF and EPUB reading | Select text to add a note or save a highlight. Click a highlight to open its note in the sidebar, or jump back from the note to the passage. Export highlights to XMind by page or chapter. |
 | Markdown export | Choose Word, HTML, PDF, or ZIP with images from Document Options → Export. Hover over an image in the editor to set its width. |
@@ -50,13 +50,12 @@ Open the bundled reading examples to try the included notes, highlights, and min
 
 Folio uses the system WebView, loads formula and diagram rendering on demand, and indexes files in the background.
 
-## What's new in v0.1.9
+## What's new in v0.1.10
 
-- Search for Java and other languages in the top-right code block menu, or enter your own language identifier. Built-in languages highlight in both reading and editing views.
-- With the cursor in a code block, Select All selects that block first. Press it again to select the document. The copy button copies the code directly and briefly confirms the copy.
-- Fixed the black strip in terminals, the gap at the top of Markdown code blocks, and a macOS update extraction error.
+- Drag a file into another folder. To move it back to the workspace root, drop it on the workspace title or empty tree space, or use the context menu.
+- The file tree scrolls at its top and bottom edges while dragging. Hold over a collapsed folder to expand it and reach its subfolders.
 
-[Release notes](https://github.com/bujiuzhi/Folio/releases/tag/v0.1.9) · [SHA-256 checksums](https://github.com/bujiuzhi/Folio/releases/download/v0.1.9/SHA256SUMS.txt)
+[Release notes](https://github.com/bujiuzhi/Folio/releases/tag/v0.1.10) · [SHA-256 checksums](https://github.com/bujiuzhi/Folio/releases/download/v0.1.10/SHA256SUMS.txt)
 
 ## Feedback
 

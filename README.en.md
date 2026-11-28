@@ -2,7 +2,7 @@
   <img src="assets/brand/folio.png" width="72" height="72" alt="">
   <h1>Folio</h1>
   <p>A local workspace for Markdown, code, reading notes, and SSH.</p>
-  <p><a href="https://bujiuzhi.github.io/Folio/en.html">Website</a> · <a href="https://github.com/bujiuzhi/Folio/releases/tag/v0.1.10">Download v0.1.10</a> · <a href="https://bujiuzhi.github.io/Folio/assets/video/folio.mp4?v=promo2">53-second product film</a></p>
+  <p><a href="https://bujiuzhi.github.io/Folio/en.html">Website</a> · <a href="https://github.com/bujiuzhi/Folio/releases/tag/v0.1.11">Download v0.1.11</a> · <a href="https://bujiuzhi.github.io/Folio/assets/video/folio.mp4?v=promo2">53-second product film</a></p>
   <p><a href="README.md">中文</a> · <a href="README.en.md">English</a></p>
 </div>
 
@@ -10,9 +10,9 @@
 
 | Platform | Installer | Installation |
 | --- | --- | --- |
-| macOS | [Apple silicon](https://github.com/bujiuzhi/Folio/releases/download/v0.1.10/Folio_0.1.10_aarch64.dmg) · [Intel](https://github.com/bujiuzhi/Folio/releases/download/v0.1.10/Folio_0.1.10_x64.dmg) | Open the DMG and drag Folio into Applications. |
-| Windows x64 | [Installer](https://github.com/bujiuzhi/Folio/releases/download/v0.1.10/Folio_0.1.10_x64-setup.exe) | Run the downloaded EXE. |
-| Linux x64 | [DEB](https://github.com/bujiuzhi/Folio/releases/download/v0.1.10/Folio_0.1.10_amd64.deb) · [AppImage](https://github.com/bujiuzhi/Folio/releases/download/v0.1.10/Folio_0.1.10_amd64.AppImage) | Install the DEB with your package manager, or make the AppImage executable and run it. |
+| macOS | [Apple silicon](https://github.com/bujiuzhi/Folio/releases/download/v0.1.11/Folio_0.1.11_aarch64.dmg) · [Intel](https://github.com/bujiuzhi/Folio/releases/download/v0.1.11/Folio_0.1.11_x64.dmg) | Open the DMG and drag Folio into Applications. |
+| Windows x64 | [Installer](https://github.com/bujiuzhi/Folio/releases/download/v0.1.11/Folio_0.1.11_x64-setup.exe) | Run the downloaded EXE. |
+| Linux x64 | [DEB](https://github.com/bujiuzhi/Folio/releases/download/v0.1.11/Folio_0.1.11_amd64.deb) · [AppImage](https://github.com/bujiuzhi/Folio/releases/download/v0.1.11/Folio_0.1.11_amd64.AppImage) | Install the DEB with your package manager, or make the AppImage executable and run it. |
 
 For v0.1.1 and later, go to Preferences → Appearance → Check for Updates. If you have the v0.1.0 preview, download an installer.
 
@@ -50,12 +50,13 @@ Open the bundled reading examples to try the included notes, highlights, and min
 
 Folio uses the system WebView, loads formula and diagram rendering on demand, and indexes files in the background.
 
-## What's new in v0.1.10
+## What's new in v0.1.11
 
-- Drag a file into another folder. To move it back to the workspace root, drop it on the workspace title or empty tree space, or use the context menu.
-- The file tree scrolls at its top and bottom edges while dragging. Hold over a collapsed folder to expand it and reach its subfolders.
+- The text and code editor now uses Monaco for syntax highlighting, find and replace, go to line, and source formatting.
+- Markdown keeps live formatting and source mode. Use the controls in the top-right corner of a code block to copy it or change its language, and scroll horizontally through long lines.
+- Toggle autosave in Preferences → Editor. Folio restores your session when reopened and keeps drafts separate from saved files.
 
-[Release notes](https://github.com/bujiuzhi/Folio/releases/tag/v0.1.10) · [SHA-256 checksums](https://github.com/bujiuzhi/Folio/releases/download/v0.1.10/SHA256SUMS.txt)
+[Release notes](https://github.com/bujiuzhi/Folio/releases/tag/v0.1.11) · [SHA-256 checksums](https://github.com/bujiuzhi/Folio/releases/download/v0.1.11/SHA256SUMS.txt)
 
 ## Feedback
 
